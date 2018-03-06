@@ -4,6 +4,7 @@
     "description": "Leonardo Player Test Bench",
     "author": "Compro Technologies",
     "license": "ISC",
+    "main": "index.html",
     "scripts": {
         "start": "node index.html"
     }
