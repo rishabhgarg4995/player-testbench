@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 
 var app = express();
 
-app.use(basicAuth({
+/*app.use(basicAuth({
   users: { 'compro': 'c0mpr0' },
   challenge: true,
   unauthorizedResponse: getUnauthorizedResponse,
@@ -19,13 +19,14 @@ function getUnauthorizedResponse(req) {
   return req.auth ?
       ('Credentials ' + req.auth.user + ':' + req.auth.password + ' rejected') :
       'No credentials provided'
-}
+}*/
 
-app
-    .use(logger('dev'))
+
+    /*.use(logger('dev'))
     .use(bodyParser.json())
     .use(bodyParser.urlencoded({ extended: false }))
-    .use(cookieParser())
+    .use(cookieParser())*/
+app
     .use(express.static(path.join(__dirname, 'public')))
     .get('*', (req, res) => {
         res.sendFile(path.join(__dirname, 'launch.html'));
