@@ -80,7 +80,7 @@ var leoConfigNew = {
                           "0": {
                             "visible": true,
                             "index": 0,
-                            "width": 91
+                            "width": 100
                           },
                           "1": {
                             "visible": true,
@@ -95,7 +95,7 @@ var leoConfigNew = {
                           "3": {
                             "visible": true,
                             "index": 3,
-                            "width": 133
+                            "width": 145
                           },
                           "4": {
                             "visible": true,
@@ -240,7 +240,7 @@ var leoConfigNew = {
                                 }
                               },
                               "4": {
-                                "value": "Acceleration (a)\r\nrev/s<sup>2</sup>",
+                                "value": "Acceleration (a)\r\nrev/s2",
                                 "index": 4,
                                 "ref": "E1",
                                 "style": {
@@ -268,7 +268,18 @@ var leoConfigNew = {
                                     "family": "Calibri",
                                     "size": 11,
                                     "bold": true
-                                  }
+                                  },
+                                  "runs": [
+                                    {
+                                      "start": 23,
+                                      "txt": "2",
+                                      "family": "Calibri",
+                                      "size": 11,
+                                      "bold": true,
+                                      "superScript": true
+                                    }
+                                  ]
+
                                 }
                               },
                               "5": {
@@ -929,12 +940,12 @@ var leoConfigNew = {
           },
           "config": {
             "meta": {
-              "title": "partial data",
+              "title": "Presentation",
               "type": "presentation"
             },
             "content": {
               "canvas": {
-                "resource": "rkdmLH3SM",
+                "resource": "rkmeVv6Of",
                 "preferences": {
                   "contextMenu": {
                     "type": "default"
@@ -969,7 +980,7 @@ var leoConfigNew = {
               }
             },
             "resources": {
-              "rkdmLH3SM": {
+              "rkmeVv6Of": {
                 "type": "spreadsheet",
                 "spreadsheet": {
                   "data": {
@@ -981,8 +992,8 @@ var leoConfigNew = {
                     "sheets": {
                       "0": {
                         "name": "Sheet1",
-                        "selection": "A3:A3",
-                        "activeCell": "A3:A3",
+                        "selection": "A1:A1",
+                        "activeCell": "A1:A1",
                         "frozenRows": 0,
                         "frozenColumns": 0,
                         "showGridLines": true,
@@ -1276,19 +1287,49 @@ var leoConfigNew = {
                                   }
                                 }
                               },
+                              "7": {
+                                "index": 7,
+                                "ref": "H1",
+                                "style": {
+                                  "border": {
+                                    "right": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                }
+                              },
                               "8": {
                                 "value": "Segment",
                                 "index": 8,
                                 "ref": "I1",
                                 "style": {
-                                  "background": "#e7e6e6",
+                                  "background": "#e2f0d9",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
                                     "family": "Calibri",
-                                    "size": 12,
+                                    "size": 11,
                                     "bold": true
                                   }
                                 }
@@ -1298,15 +1339,33 @@ var leoConfigNew = {
                                 "index": 9,
                                 "ref": "J1",
                                 "style": {
-                                  "background": "#e7e6e6",
+                                  "background": "#e2f0d9",
                                   "wrap": true,
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
                                     "family": "Calibri",
-                                    "size": 12,
+                                    "size": 11,
                                     "bold": true
                                   }
                                 }
@@ -1316,15 +1375,33 @@ var leoConfigNew = {
                                 "index": 10,
                                 "ref": "K1",
                                 "style": {
-                                  "background": "#e7e6e6",
+                                  "background": "#e2f0d9",
                                   "wrap": true,
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
                                     "family": "Calibri",
-                                    "size": 12,
+                                    "size": 11,
                                     "bold": true
                                   }
                                 }
@@ -1334,15 +1411,33 @@ var leoConfigNew = {
                                 "index": 11,
                                 "ref": "L1",
                                 "style": {
-                                  "background": "#e7e6e6",
+                                  "background": "#e2f0d9",
                                   "wrap": true,
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
                                     "family": "Calibri",
-                                    "size": 12,
+                                    "size": 11,
                                     "bold": true
                                   }
                                 }
@@ -1494,19 +1589,38 @@ var leoConfigNew = {
                                   }
                                 }
                               },
+                              "7": {
+                                "index": 7,
+                                "ref": "H2",
+                                "style": {
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                }
+                              },
                               "8": {
                                 "index": 8,
                                 "ref": "I2",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "left": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
                                     "family": "Calibri",
-                                    "size": 12,
-                                    "bold": true
+                                    "size": 11
                                   }
                                 }
                               },
@@ -1515,14 +1629,18 @@ var leoConfigNew = {
                                 "index": 9,
                                 "ref": "J2",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "top": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
                                     "family": "Calibri",
-                                    "size": 12
+                                    "size": 11
                                   }
                                 }
                               },
@@ -1531,14 +1649,18 @@ var leoConfigNew = {
                                 "index": 10,
                                 "ref": "K2",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "top": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
                                     "family": "Calibri",
-                                    "size": 12
+                                    "size": 11
                                   }
                                 }
                               },
@@ -1547,20 +1669,27 @@ var leoConfigNew = {
                                 "index": 11,
                                 "ref": "L2",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "top": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
                                     "family": "Calibri",
-                                    "size": 12
+                                    "size": 11
                                   }
                                 }
                               }
                             },
-                            "index": 1,
-                            "height": 24.609375
+                            "index": 1
                           },
                           "2": {
                             "visible": true,
@@ -1673,14 +1802,30 @@ var leoConfigNew = {
                                   }
                                 }
                               },
+                              "7": {
+                                "index": 7,
+                                "ref": "H3",
+                                "style": {
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                }
+                              },
                               "8": {
                                 "value": "1 start",
                                 "index": 8,
                                 "ref": "I3",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "left": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -1694,9 +1839,7 @@ var leoConfigNew = {
                                 "index": 9,
                                 "ref": "J3",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -1710,9 +1853,7 @@ var leoConfigNew = {
                                 "index": 10,
                                 "ref": "K3",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -1726,9 +1867,13 @@ var leoConfigNew = {
                                 "index": 11,
                                 "ref": "L3",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -1852,14 +1997,30 @@ var leoConfigNew = {
                                   }
                                 }
                               },
+                              "7": {
+                                "index": 7,
+                                "ref": "H4",
+                                "style": {
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                }
+                              },
                               "8": {
                                 "value": "1 end",
                                 "index": 8,
                                 "ref": "I4",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "left": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -1873,9 +2034,7 @@ var leoConfigNew = {
                                 "index": 9,
                                 "ref": "J4",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -1889,9 +2048,7 @@ var leoConfigNew = {
                                 "index": 10,
                                 "ref": "K4",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -1905,9 +2062,13 @@ var leoConfigNew = {
                                 "index": 11,
                                 "ref": "L4",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -2064,14 +2225,30 @@ var leoConfigNew = {
                                   }
                                 }
                               },
+                              "7": {
+                                "index": 7,
+                                "ref": "H5",
+                                "style": {
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                }
+                              },
                               "8": {
                                 "value": "2 start",
                                 "index": 8,
                                 "ref": "I5",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "left": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -2085,9 +2262,7 @@ var leoConfigNew = {
                                 "index": 9,
                                 "ref": "J5",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -2101,9 +2276,7 @@ var leoConfigNew = {
                                 "index": 10,
                                 "ref": "K5",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -2117,9 +2290,13 @@ var leoConfigNew = {
                                 "index": 11,
                                 "ref": "L5",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -2214,14 +2391,30 @@ var leoConfigNew = {
                                   }
                                 }
                               },
+                              "7": {
+                                "index": 7,
+                                "ref": "H6",
+                                "style": {
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                }
+                              },
                               "8": {
                                 "value": "2 end",
                                 "index": 8,
                                 "ref": "I6",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "left": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -2235,9 +2428,7 @@ var leoConfigNew = {
                                 "index": 9,
                                 "ref": "J6",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -2251,9 +2442,7 @@ var leoConfigNew = {
                                 "index": 10,
                                 "ref": "K6",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -2267,9 +2456,13 @@ var leoConfigNew = {
                                 "index": 11,
                                 "ref": "L6",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -2284,14 +2477,30 @@ var leoConfigNew = {
                           "6": {
                             "visible": true,
                             "cells": {
+                              "7": {
+                                "index": 7,
+                                "ref": "H7",
+                                "style": {
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                }
+                              },
                               "8": {
                                 "value": "3 start",
                                 "index": 8,
                                 "ref": "I7",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "left": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -2305,9 +2514,7 @@ var leoConfigNew = {
                                 "index": 9,
                                 "ref": "J7",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -2321,9 +2528,7 @@ var leoConfigNew = {
                                 "index": 10,
                                 "ref": "K7",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -2337,9 +2542,13 @@ var leoConfigNew = {
                                 "index": 11,
                                 "ref": "L7",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -2426,14 +2635,30 @@ var leoConfigNew = {
                                   }
                                 }
                               },
+                              "7": {
+                                "index": 7,
+                                "ref": "H8",
+                                "style": {
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                }
+                              },
                               "8": {
                                 "value": "3 end",
                                 "index": 8,
                                 "ref": "I8",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "left": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -2447,9 +2672,7 @@ var leoConfigNew = {
                                 "index": 9,
                                 "ref": "J8",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -2463,9 +2686,7 @@ var leoConfigNew = {
                                 "index": 10,
                                 "ref": "K8",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -2479,9 +2700,13 @@ var leoConfigNew = {
                                 "index": 11,
                                 "ref": "L8",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -2723,14 +2948,30 @@ var leoConfigNew = {
                                   }
                                 }
                               },
+                              "7": {
+                                "index": 7,
+                                "ref": "H9",
+                                "style": {
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                }
+                              },
                               "8": {
                                 "value": "4 start",
                                 "index": 8,
                                 "ref": "I9",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "left": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -2744,9 +2985,7 @@ var leoConfigNew = {
                                 "index": 9,
                                 "ref": "J9",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -2760,9 +2999,7 @@ var leoConfigNew = {
                                 "index": 10,
                                 "ref": "K9",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -2776,9 +3013,13 @@ var leoConfigNew = {
                                 "index": 11,
                                 "ref": "L9",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -2934,14 +3175,30 @@ var leoConfigNew = {
                                   }
                                 }
                               },
+                              "7": {
+                                "index": 7,
+                                "ref": "H10",
+                                "style": {
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                }
+                              },
                               "8": {
                                 "value": "4 end",
                                 "index": 8,
                                 "ref": "I10",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "left": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -2955,9 +3212,7 @@ var leoConfigNew = {
                                 "index": 9,
                                 "ref": "J10",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -2971,9 +3226,7 @@ var leoConfigNew = {
                                 "index": 10,
                                 "ref": "K10",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -2987,9 +3240,13 @@ var leoConfigNew = {
                                 "index": 11,
                                 "ref": "L10",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -3112,14 +3369,30 @@ var leoConfigNew = {
                                   }
                                 }
                               },
+                              "7": {
+                                "index": 7,
+                                "ref": "H11",
+                                "style": {
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                }
+                              },
                               "8": {
                                 "value": "5 start",
                                 "index": 8,
                                 "ref": "I11",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "left": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -3133,9 +3406,7 @@ var leoConfigNew = {
                                 "index": 9,
                                 "ref": "J11",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -3149,9 +3420,7 @@ var leoConfigNew = {
                                 "index": 10,
                                 "ref": "K11",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -3165,9 +3434,13 @@ var leoConfigNew = {
                                 "index": 11,
                                 "ref": "L11",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -3290,14 +3563,30 @@ var leoConfigNew = {
                                   }
                                 }
                               },
+                              "7": {
+                                "index": 7,
+                                "ref": "H12",
+                                "style": {
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                }
+                              },
                               "8": {
                                 "value": "5 end",
                                 "index": 8,
                                 "ref": "I12",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "left": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -3311,9 +3600,7 @@ var leoConfigNew = {
                                 "index": 9,
                                 "ref": "J12",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -3327,9 +3614,7 @@ var leoConfigNew = {
                                 "index": 10,
                                 "ref": "K12",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -3343,9 +3628,13 @@ var leoConfigNew = {
                                 "index": 11,
                                 "ref": "L12",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -3500,14 +3789,30 @@ var leoConfigNew = {
                                   }
                                 }
                               },
+                              "7": {
+                                "index": 7,
+                                "ref": "H13",
+                                "style": {
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                }
+                              },
                               "8": {
                                 "value": "6 start",
                                 "index": 8,
                                 "ref": "I13",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "left": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -3521,9 +3826,7 @@ var leoConfigNew = {
                                 "index": 9,
                                 "ref": "J13",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -3537,9 +3840,7 @@ var leoConfigNew = {
                                 "index": 10,
                                 "ref": "K13",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -3553,9 +3854,13 @@ var leoConfigNew = {
                                 "index": 11,
                                 "ref": "L13",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -3642,14 +3947,30 @@ var leoConfigNew = {
                                   }
                                 }
                               },
+                              "7": {
+                                "index": 7,
+                                "ref": "H14",
+                                "style": {
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                }
+                              },
                               "8": {
                                 "value": "6 end",
                                 "index": 8,
                                 "ref": "I14",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "left": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -3663,9 +3984,7 @@ var leoConfigNew = {
                                 "index": 9,
                                 "ref": "J14",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -3679,9 +3998,7 @@ var leoConfigNew = {
                                 "index": 10,
                                 "ref": "K14",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -3695,9 +4012,13 @@ var leoConfigNew = {
                                 "index": 11,
                                 "ref": "L14",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -3712,14 +4033,30 @@ var leoConfigNew = {
                           "14": {
                             "visible": true,
                             "cells": {
+                              "7": {
+                                "index": 7,
+                                "ref": "H15",
+                                "style": {
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                }
+                              },
                               "8": {
                                 "value": "7 start",
                                 "index": 8,
                                 "ref": "I15",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "left": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -3733,9 +4070,7 @@ var leoConfigNew = {
                                 "index": 9,
                                 "ref": "J15",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -3749,9 +4084,7 @@ var leoConfigNew = {
                                 "index": 10,
                                 "ref": "K15",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -3765,9 +4098,13 @@ var leoConfigNew = {
                                 "index": 11,
                                 "ref": "L15",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -3866,14 +4203,30 @@ var leoConfigNew = {
                                   }
                                 }
                               },
+                              "7": {
+                                "index": 7,
+                                "ref": "H16",
+                                "style": {
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                }
+                              },
                               "8": {
                                 "value": "7 end",
                                 "index": 8,
                                 "ref": "I16",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "left": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -3887,9 +4240,7 @@ var leoConfigNew = {
                                 "index": 9,
                                 "ref": "J16",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -3903,9 +4254,7 @@ var leoConfigNew = {
                                 "index": 10,
                                 "ref": "K16",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -3919,9 +4268,13 @@ var leoConfigNew = {
                                 "index": 11,
                                 "ref": "L16",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -4189,6 +4542,10 @@ var leoConfigNew = {
                                     "left": {
                                       "clr": "#000000",
                                       "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
                                     }
                                   }
                                 }
@@ -4198,9 +4555,13 @@ var leoConfigNew = {
                                 "index": 8,
                                 "ref": "I17",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "left": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -4214,9 +4575,7 @@ var leoConfigNew = {
                                 "index": 9,
                                 "ref": "J17",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -4230,9 +4589,7 @@ var leoConfigNew = {
                                 "index": 10,
                                 "ref": "K17",
                                 "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "textAlign": "center"
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -4246,9 +4603,13 @@ var leoConfigNew = {
                                 "index": 11,
                                 "ref": "L17",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -4509,6 +4870,10 @@ var leoConfigNew = {
                                     "left": {
                                       "clr": "#000000",
                                       "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
                                     }
                                   }
                                 }
@@ -4518,9 +4883,17 @@ var leoConfigNew = {
                                 "index": 8,
                                 "ref": "I18",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "left": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -4534,9 +4907,13 @@ var leoConfigNew = {
                                 "index": 9,
                                 "ref": "J18",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "bottom": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -4550,9 +4927,13 @@ var leoConfigNew = {
                                 "index": 10,
                                 "ref": "K18",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "bottom": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -4566,9 +4947,17 @@ var leoConfigNew = {
                                 "index": 11,
                                 "ref": "L18",
                                 "style": {
-                                  "background": "#e7e6e6",
                                   "textAlign": "center",
-                                  "verticalAlign": "middle"
+                                  "border": {
+                                    "bottom": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
                                 },
                                 "fontAttrs": {
                                   "def": {
@@ -4819,6 +5208,54 @@ var leoConfigNew = {
                                   "border": {
                                     "left": {
                                       "clr": "#000000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                }
+                              },
+                              "8": {
+                                "index": 8,
+                                "ref": "I19",
+                                "style": {
+                                  "border": {
+                                    "top": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                }
+                              },
+                              "9": {
+                                "index": 9,
+                                "ref": "J19",
+                                "style": {
+                                  "border": {
+                                    "top": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                }
+                              },
+                              "10": {
+                                "index": 10,
+                                "ref": "K19",
+                                "style": {
+                                  "border": {
+                                    "top": {
+                                      "clr": "#bf9000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                }
+                              },
+                              "11": {
+                                "index": 11,
+                                "ref": "L19",
+                                "style": {
+                                  "border": {
+                                    "top": {
+                                      "clr": "#bf9000",
                                       "type": "thin"
                                     }
                                   }
@@ -5822,6 +6259,24 @@ var leoConfigNew = {
                                     }
                                   }
                                 }
+                              },
+                              "8": {
+                                "index": 8,
+                                "ref": "I23",
+                                "style": {
+                                  "border": {
+                                    "bottom": {
+                                      "clr": "#ffc000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
                               }
                             },
                             "index": 22
@@ -6073,6 +6528,18 @@ var leoConfigNew = {
                                   "border": {
                                     "left": {
                                       "clr": "#000000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                }
+                              },
+                              "8": {
+                                "index": 8,
+                                "ref": "I24",
+                                "style": {
+                                  "border": {
+                                    "top": {
+                                      "clr": "#ffc000",
                                       "type": "thin"
                                     }
                                   }
@@ -6343,19 +6810,19 @@ var leoConfigNew = {
 
         "question": {
           "dim": {
-            "height": "400px",
+            "height": "300px",
             "width": "1100px"
           },
           "config": {
             "meta": {
-              "title": "Sample 1",
+              "title": "Question",
               "type": "question"
             },
             "content": {
               "canvas": {
-                "resource": "SJDUlHSfM",
+                "resource": "ryFXUP6OG",
                 "preferences": {
-                  "context-menu": {
+                  "contextMenu": {
                     "type": "default"
                   },
                   "ribbon": {
@@ -6365,22 +6832,24 @@ var leoConfigNew = {
                   },
                   "sheetbar": {
                     "visible": false,
-                    "allow-insert-delete": false,
-                    "allow-rename": false
+                    "allowInsertDelete": false,
+                    "allowRename": false
                   },
                   "formulabar": {
                     "visible": true,
                     "namebox": false,
                     "expanded": false
+                  },
+                  "grid": {
+                    "rowHeader": true,
+                    "colHeader": true,
+                    "readOnly": false
                   }
                 }
-              },
-              "instructions": {
-                "resource": "BylP8gSBzz"
               }
             },
             "resources": {
-              "SJDUlHSfM": {
+              "ryFXUP6OG": {
                 "type": "spreadsheet",
                 "spreadsheet": {
                   "data": {
@@ -6392,8 +6861,8 @@ var leoConfigNew = {
                     "sheets": {
                       "0": {
                         "name": "Sheet1",
-                        "selection": "A1:A1",
-                        "activeCell": "A1:A1",
+                        "selection": "D14:D14",
+                        "activeCell": "D14:D14",
                         "frozenRows": 0,
                         "frozenColumns": 0,
                         "showGridLines": true,
@@ -6408,7 +6877,7 @@ var leoConfigNew = {
                           "0": {
                             "visible": true,
                             "index": 0,
-                            "width": 140
+                            "width": 154
                           },
                           "1": {
                             "visible": true,
@@ -6423,22 +6892,17 @@ var leoConfigNew = {
                           "3": {
                             "visible": true,
                             "index": 3,
-                            "width": 112
+                            "width": 133
                           },
                           "4": {
                             "visible": true,
                             "index": 4,
-                            "width": 154
+                            "width": 161
                           },
                           "5": {
                             "visible": true,
                             "index": 5,
-                            "width": 154
-                          },
-                          "6": {
-                            "visible": true,
-                            "index": 6,
-                            "width": 140
+                            "width": 168
                           }
                         },
                         "rows": {
@@ -6458,11 +6922,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -6489,11 +6957,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -6520,11 +6992,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -6551,11 +7027,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -6582,11 +7062,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -6613,11 +7097,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -6632,7 +7120,7 @@ var leoConfigNew = {
                                 }
                               },
                               "6": {
-                                "value": "a^2t",
+                                "value": "a2t",
                                 "index": 6,
                                 "ref": "G1",
                                 "style": {
@@ -6644,11 +7132,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -6659,24 +7151,22 @@ var leoConfigNew = {
                                     "family": "Calibri",
                                     "size": 12,
                                     "bold": true
-                                  }
-                                }
-                              },
-                              "7": {
-                                "index": 7,
-                                "ref": "H1",
-                                "style": {
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
+                                  },
+                                  "runs": [
+                                    {
+                                      "start": 1,
+                                      "txt": "2",
+                                      "family": "Calibri",
+                                      "size": 11,
+                                      "bold": true,
+                                      "superScript": true
                                     }
-                                  }
+                                  ]
                                 }
                               }
                             },
                             "index": 0,
-                            "height": 38.984375
+                            "height": 24.609375
                           },
                           "1": {
                             "visible": true,
@@ -6693,11 +7183,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -6724,11 +7218,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -6754,11 +7252,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -6784,11 +7286,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -6814,11 +7320,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -6844,11 +7354,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -6873,11 +7387,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -6889,22 +7407,10 @@ var leoConfigNew = {
                                     "size": 12
                                   }
                                 }
-                              },
-                              "7": {
-                                "index": 7,
-                                "ref": "H2",
-                                "style": {
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
                               }
                             },
                             "index": 1,
-                            "height": 31.406250000000004
+                            "height": 24.609375
                           },
                           "2": {
                             "visible": true,
@@ -6922,11 +7428,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -6951,11 +7461,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -6969,7 +7483,6 @@ var leoConfigNew = {
                                 }
                               },
                               "2": {
-                                "value": 20,
                                 "index": 2,
                                 "ref": "C3",
                                 "style": {
@@ -6980,11 +7493,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -6998,9 +7515,7 @@ var leoConfigNew = {
                                 }
                               },
                               "3": {
-                                "value": 222.22222222222223,
                                 "index": 3,
-                                "formula": "(C3-B3)/E3",
                                 "ref": "D3",
                                 "style": {
                                   "textAlign": "center",
@@ -7010,11 +7525,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7028,7 +7547,7 @@ var leoConfigNew = {
                                 }
                               },
                               "4": {
-                                "value": 0.09,
+                                "value": 0.5,
                                 "index": 4,
                                 "ref": "E3",
                                 "style": {
@@ -7039,11 +7558,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7057,9 +7580,7 @@ var leoConfigNew = {
                                 }
                               },
                               "5": {
-                                "value": 0.9,
                                 "index": 5,
-                                "formula": "(B3+C3)*E3/2",
                                 "ref": "F3",
                                 "style": {
                                   "textAlign": "center",
@@ -7069,11 +7590,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7087,9 +7612,7 @@ var leoConfigNew = {
                                 }
                               },
                               "6": {
-                                "value": 4444.444444444444,
                                 "index": 6,
-                                "formula": "POWER(D3, 2)*E3",
                                 "ref": "G3",
                                 "style": {
                                   "textAlign": "center",
@@ -7099,11 +7622,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7115,28 +7642,15 @@ var leoConfigNew = {
                                     "size": 11
                                   }
                                 }
-                              },
-                              "7": {
-                                "index": 7,
-                                "ref": "H3",
-                                "style": {
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
                               }
                             },
-                            "index": 2,
-                            "height": 31.406250000000004
+                            "index": 2
                           },
                           "3": {
                             "visible": true,
                             "cells": {
                               "0": {
-                                "value": "Cruise",
+                                "value": "Decel",
                                 "index": 0,
                                 "ref": "A4",
                                 "style": {
@@ -7148,11 +7662,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7166,7 +7684,6 @@ var leoConfigNew = {
                                 }
                               },
                               "1": {
-                                "value": 20,
                                 "index": 1,
                                 "ref": "B4",
                                 "style": {
@@ -7177,11 +7694,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7195,7 +7716,6 @@ var leoConfigNew = {
                                 }
                               },
                               "2": {
-                                "value": 20,
                                 "index": 2,
                                 "ref": "C4",
                                 "style": {
@@ -7206,11 +7726,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7224,9 +7748,7 @@ var leoConfigNew = {
                                 }
                               },
                               "3": {
-                                "value": 0,
                                 "index": 3,
-                                "formula": "(C4-B4)/E4",
                                 "ref": "D4",
                                 "style": {
                                   "textAlign": "center",
@@ -7236,11 +7758,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7254,7 +7780,7 @@ var leoConfigNew = {
                                 }
                               },
                               "4": {
-                                "value": 0.075,
+                                "value": 0.5,
                                 "index": 4,
                                 "ref": "E4",
                                 "style": {
@@ -7265,11 +7791,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7283,9 +7813,7 @@ var leoConfigNew = {
                                 }
                               },
                               "5": {
-                                "value": 1.5,
                                 "index": 5,
-                                "formula": "(B4+C4)*E4/2",
                                 "ref": "F4",
                                 "style": {
                                   "textAlign": "center",
@@ -7295,11 +7823,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7313,9 +7845,7 @@ var leoConfigNew = {
                                 }
                               },
                               "6": {
-                                "value": 0,
                                 "index": 6,
-                                "formula": "POWER(D4, 2)*E4",
                                 "ref": "G4",
                                 "style": {
                                   "textAlign": "center",
@@ -7325,11 +7855,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7341,28 +7875,15 @@ var leoConfigNew = {
                                     "size": 11
                                   }
                                 }
-                              },
-                              "7": {
-                                "index": 7,
-                                "ref": "H4",
-                                "style": {
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
                               }
                             },
-                            "index": 3,
-                            "height": 31.406250000000004
+                            "index": 3
                           },
                           "4": {
                             "visible": true,
                             "cells": {
                               "0": {
-                                "value": "Decel",
+                                "value": "Dwell",
                                 "index": 0,
                                 "ref": "A5",
                                 "style": {
@@ -7374,11 +7895,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7392,7 +7917,7 @@ var leoConfigNew = {
                                 }
                               },
                               "1": {
-                                "value": 20,
+                                "value": 0,
                                 "index": 1,
                                 "ref": "B5",
                                 "style": {
@@ -7403,11 +7928,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7432,11 +7961,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7450,9 +7983,7 @@ var leoConfigNew = {
                                 }
                               },
                               "3": {
-                                "value": -235.2941176470588,
                                 "index": 3,
-                                "formula": "(C5-B5)/E5",
                                 "ref": "D5",
                                 "style": {
                                   "textAlign": "center",
@@ -7462,11 +7993,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7480,7 +8015,7 @@ var leoConfigNew = {
                                 }
                               },
                               "4": {
-                                "value": 0.085,
+                                "value": 1,
                                 "index": 4,
                                 "ref": "E5",
                                 "style": {
@@ -7491,11 +8026,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7509,9 +8048,7 @@ var leoConfigNew = {
                                 }
                               },
                               "5": {
-                                "value": 0.85,
                                 "index": 5,
-                                "formula": "(B5+C5)*E5/2",
                                 "ref": "F5",
                                 "style": {
                                   "textAlign": "center",
@@ -7521,11 +8058,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7539,9 +8080,7 @@ var leoConfigNew = {
                                 }
                               },
                               "6": {
-                                "value": 4705.882352941177,
                                 "index": 6,
-                                "formula": "POWER(D5, 2)*E5",
                                 "ref": "G5",
                                 "style": {
                                   "textAlign": "center",
@@ -7551,11 +8090,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7567,28 +8110,15 @@ var leoConfigNew = {
                                     "size": 11
                                   }
                                 }
-                              },
-                              "7": {
-                                "index": 7,
-                                "ref": "H5",
-                                "style": {
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
                               }
                             },
-                            "index": 4,
-                            "height": 31.406250000000004
+                            "index": 4
                           },
                           "5": {
                             "visible": true,
                             "cells": {
                               "0": {
-                                "value": "Dwell",
+                                "value": "Total:",
                                 "index": 0,
                                 "ref": "A6",
                                 "style": {
@@ -7600,11 +8130,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7613,13 +8147,15 @@ var leoConfigNew = {
                                 "fontAttrs": {
                                   "def": {
                                     "family": "Calibri",
-                                    "size": 11
+                                    "size": 12,
+                                    "bold": true
                                   }
                                 }
                               },
                               "1": {
                                 "value": 0,
                                 "index": 1,
+                                "formula": "SUM(B3:B5)",
                                 "ref": "B6",
                                 "style": {
                                   "textAlign": "center",
@@ -7629,11 +8165,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7649,6 +8189,7 @@ var leoConfigNew = {
                               "2": {
                                 "value": 0,
                                 "index": 2,
+                                "formula": "SUM(C3:C5)",
                                 "ref": "C6",
                                 "style": {
                                   "textAlign": "center",
@@ -7658,11 +8199,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7678,7 +8223,7 @@ var leoConfigNew = {
                               "3": {
                                 "value": 0,
                                 "index": 3,
-                                "formula": "(C6-B6)/E6",
+                                "formula": "SUM(D3:D5)",
                                 "ref": "D6",
                                 "style": {
                                   "textAlign": "center",
@@ -7688,11 +8233,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7706,8 +8255,9 @@ var leoConfigNew = {
                                 }
                               },
                               "4": {
-                                "value": 0.05,
+                                "value": 2,
                                 "index": 4,
+                                "formula": "SUM(E3:E5)",
                                 "ref": "E6",
                                 "style": {
                                   "textAlign": "center",
@@ -7717,11 +8267,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7737,7 +8291,7 @@ var leoConfigNew = {
                               "5": {
                                 "value": 0,
                                 "index": 5,
-                                "formula": "(B6+C6)*E6/2",
+                                "formula": "SUM(F3:F5)",
                                 "ref": "F6",
                                 "style": {
                                   "textAlign": "center",
@@ -7747,11 +8301,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7777,11 +8335,55 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              }
+                            },
+                            "index": 5,
+                            "height": 24.609375
+                          },
+                          "6": {
+                            "visible": true,
+                            "cells": {
+                              "0": {
+                                "index": 0,
+                                "ref": "A7",
+                                "style": {
+                                  "background": "#e7e6e6",
+                                  "textAlign": "center",
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7794,29 +8396,9 @@ var leoConfigNew = {
                                   }
                                 }
                               },
-                              "7": {
-                                "index": 7,
-                                "ref": "H6",
-                                "style": {
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "index": 5,
-                            "height": 31.406250000000004
-                          },
-                          "6": {
-                            "visible": true,
-                            "cells": {
-                              "0": {
-                                "value": "Total:",
-                                "index": 0,
-                                "ref": "A7",
+                              "1": {
+                                "index": 1,
+                                "ref": "B7",
                                 "style": {
                                   "background": "#e7e6e6",
                                   "textAlign": "center",
@@ -7826,11 +8408,220 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "2": {
+                                "index": 2,
+                                "ref": "C7",
+                                "style": {
+                                  "background": "#e7e6e6",
+                                  "textAlign": "center",
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "3": {
+                                "index": 3,
+                                "ref": "D7",
+                                "style": {
+                                  "background": "#e7e6e6",
+                                  "textAlign": "center",
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "4": {
+                                "index": 4,
+                                "ref": "E7",
+                                "style": {
+                                  "background": "#e7e6e6",
+                                  "textAlign": "center",
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "5": {
+                                "index": 5,
+                                "ref": "F7",
+                                "style": {
+                                  "background": "#e7e6e6",
+                                  "textAlign": "center",
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "6": {
+                                "index": 6,
+                                "ref": "G7",
+                                "style": {
+                                  "background": "#e7e6e6",
+                                  "textAlign": "center",
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              }
+                            },
+                            "index": 6
+                          },
+                          "7": {
+                            "visible": true,
+                            "cells": {
+                              "0": {
+                                "value": "RMS Acceleration",
+                                "index": 0,
+                                "ref": "A8",
+                                "style": {
+                                  "background": "#e7e6e6",
+                                  "textAlign": "center",
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -7845,238 +8636,12 @@ var leoConfigNew = {
                                 }
                               },
                               "1": {
-                                "value": 40,
+                                "value": 0,
                                 "index": 1,
-                                "formula": "SUM(B3:B6)",
-                                "ref": "B7",
-                                "style": {
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "2": {
-                                "value": 40,
-                                "index": 2,
-                                "formula": "SUM(C3:C6)",
-                                "ref": "C7",
-                                "style": {
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "3": {
-                                "value": -13.071895424836583,
-                                "index": 3,
-                                "formula": "SUM(D3:D6)",
-                                "ref": "D7",
-                                "style": {
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "4": {
-                                "value": 0.3,
-                                "index": 4,
-                                "formula": "SUM(E3:E6)",
-                                "ref": "E7",
-                                "style": {
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "5": {
-                                "value": 3.25,
-                                "index": 5,
-                                "formula": "SUM(F3:F6)",
-                                "ref": "F7",
-                                "style": {
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "6": {
-                                "value": 51.26233499935908,
-                                "index": 6,
-                                "formula": "POWER(D7, 2)*E7",
-                                "ref": "G7",
-                                "style": {
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "7": {
-                                "index": 7,
-                                "ref": "H7",
-                                "style": {
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "index": 6,
-                            "height": 31.406250000000004
-                          },
-                          "7": {
-                            "visible": true,
-                            "cells": {
-                              "0": {
-                                "index": 0,
-                                "ref": "A8",
-                                "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "1": {
-                                "index": 1,
+                                "formula": "(G6/E6)^0.5",
                                 "ref": "B8",
                                 "style": {
-                                  "background": "#e7e6e6",
+                                  "background": "#ffffff",
                                   "textAlign": "center",
                                   "verticalAlign": "middle",
                                   "border": {
@@ -8084,11 +8649,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -8102,6 +8671,7 @@ var leoConfigNew = {
                                 }
                               },
                               "2": {
+                                "value": "rev/s^2",
                                 "index": 2,
                                 "ref": "C8",
                                 "style": {
@@ -8113,11 +8683,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -8126,7 +8700,8 @@ var leoConfigNew = {
                                 "fontAttrs": {
                                   "def": {
                                     "family": "Calibri",
-                                    "size": 11
+                                    "size": 12,
+                                    "bold": true
                                   }
                                 }
                               },
@@ -8142,11 +8717,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -8171,11 +8750,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -8200,11 +8783,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -8229,11 +8816,55 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              }
+                            },
+                            "index": 7,
+                            "height": 24.609375
+                          },
+                          "8": {
+                            "visible": true,
+                            "cells": {
+                              "0": {
+                                "index": 0,
+                                "ref": "A9",
+                                "style": {
+                                  "background": "#e7e6e6",
+                                  "textAlign": "center",
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -8246,29 +8877,9 @@ var leoConfigNew = {
                                   }
                                 }
                               },
-                              "7": {
-                                "index": 7,
-                                "ref": "H8",
-                                "style": {
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "index": 7,
-                            "height": 31.406250000000004
-                          },
-                          "8": {
-                            "visible": true,
-                            "cells": {
-                              "0": {
-                                "value": "RMS Acceleration",
-                                "index": 0,
-                                "ref": "A9",
+                              "1": {
+                                "index": 1,
+                                "ref": "B9",
                                 "style": {
                                   "background": "#e7e6e6",
                                   "textAlign": "center",
@@ -8278,43 +8889,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
                                       "clr": "#000000",
                                       "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 12,
-                                    "bold": true
-                                  }
-                                }
-                              },
-                              "1": {
-                                "value": 13.071895424836583,
-                                "index": 1,
-                                "formula": "(G7/E7)^0.5",
-                                "ref": "B9",
-                                "style": {
-                                  "background": "#ffffff",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
                                     },
                                     "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -8328,7 +8911,6 @@ var leoConfigNew = {
                                 }
                               },
                               "2": {
-                                "value": "rev/s^2",
                                 "index": 2,
                                 "ref": "C9",
                                 "style": {
@@ -8340,11 +8922,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -8353,8 +8939,7 @@ var leoConfigNew = {
                                 "fontAttrs": {
                                   "def": {
                                     "family": "Calibri",
-                                    "size": 12,
-                                    "bold": true
+                                    "size": 11
                                   }
                                 }
                               },
@@ -8370,11 +8955,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -8399,11 +8988,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -8428,11 +9021,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -8457,11 +9054,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -8471,336 +9072,11 @@ var leoConfigNew = {
                                   "def": {
                                     "family": "Calibri",
                                     "size": 11
-                                  }
-                                }
-                              },
-                              "7": {
-                                "index": 7,
-                                "ref": "H9",
-                                "style": {
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
                                   }
                                 }
                               }
                             },
-                            "index": 8,
-                            "height": 31.406250000000004
-                          },
-                          "9": {
-                            "visible": true,
-                            "cells": {
-                              "0": {
-                                "index": 0,
-                                "ref": "A10",
-                                "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "1": {
-                                "index": 1,
-                                "ref": "B10",
-                                "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "2": {
-                                "index": 2,
-                                "ref": "C10",
-                                "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "3": {
-                                "index": 3,
-                                "ref": "D10",
-                                "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "4": {
-                                "index": 4,
-                                "ref": "E10",
-                                "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "5": {
-                                "index": 5,
-                                "ref": "F10",
-                                "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "6": {
-                                "index": 6,
-                                "ref": "G10",
-                                "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "7": {
-                                "index": 7,
-                                "ref": "H10",
-                                "style": {
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "index": 9,
-                            "height": 31.406250000000004
-                          },
-                          "10": {
-                            "visible": true,
-                            "cells": {
-                              "0": {
-                                "index": 0,
-                                "ref": "A11",
-                                "style": {
-                                  "border": {
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
-                              },
-                              "1": {
-                                "index": 1,
-                                "ref": "B11",
-                                "style": {
-                                  "border": {
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
-                              },
-                              "2": {
-                                "index": 2,
-                                "ref": "C11",
-                                "style": {
-                                  "border": {
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
-                              },
-                              "3": {
-                                "index": 3,
-                                "ref": "D11",
-                                "style": {
-                                  "border": {
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
-                              },
-                              "4": {
-                                "index": 4,
-                                "ref": "E11",
-                                "style": {
-                                  "border": {
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
-                              },
-                              "5": {
-                                "index": 5,
-                                "ref": "F11",
-                                "style": {
-                                  "border": {
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
-                              },
-                              "6": {
-                                "index": 6,
-                                "ref": "G11",
-                                "style": {
-                                  "border": {
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "index": 10
+                            "index": 8
                           }
                         }
                       }
@@ -8808,13 +9084,7 @@ var leoConfigNew = {
                   }
                 }
               },
-              "BylP8gSBzz": {
-                "type": "html",
-                "html": {
-                  "data": "Sample Instructions"
-                }
-              },
-              "B1O8grSfz": {
+              "Sk5X8Dpuf": {
                 "type": "spreadsheet",
                 "spreadsheet": {
                   "data": {
@@ -8826,8 +9096,8 @@ var leoConfigNew = {
                     "sheets": {
                       "0": {
                         "name": "Sheet1",
-                        "selection": "A1:A1",
-                        "activeCell": "A1:A1",
+                        "selection": "A11:A11",
+                        "activeCell": "A11:A11",
                         "frozenRows": 0,
                         "frozenColumns": 0,
                         "showGridLines": true,
@@ -8892,11 +9162,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -8923,11 +9197,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -8954,11 +9232,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -8985,11 +9267,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9016,11 +9302,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9047,11 +9337,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9078,11 +9372,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9093,18 +9391,6 @@ var leoConfigNew = {
                                     "family": "Calibri",
                                     "size": 12,
                                     "bold": true
-                                  }
-                                }
-                              },
-                              "7": {
-                                "index": 7,
-                                "ref": "H1",
-                                "style": {
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
                                   }
                                 }
                               }
@@ -9127,11 +9413,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9158,11 +9448,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9188,11 +9482,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9218,11 +9516,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9248,11 +9550,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9278,11 +9584,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9307,11 +9617,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9323,22 +9637,10 @@ var leoConfigNew = {
                                     "size": 12
                                   }
                                 }
-                              },
-                              "7": {
-                                "index": 7,
-                                "ref": "H2",
-                                "style": {
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
                               }
                             },
                             "index": 1,
-                            "height": 31.406250000000004
+                            "height": 24.609375
                           },
                           "2": {
                             "visible": true,
@@ -9356,11 +9658,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9385,11 +9691,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9403,7 +9713,7 @@ var leoConfigNew = {
                                 }
                               },
                               "2": {
-                                "value": 20,
+                                "value": 100,
                                 "index": 2,
                                 "ref": "C3",
                                 "style": {
@@ -9414,11 +9724,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9432,7 +9746,7 @@ var leoConfigNew = {
                                 }
                               },
                               "3": {
-                                "value": 222.22222222222223,
+                                "value": 200,
                                 "index": 3,
                                 "formula": "(C3-B3)/E3",
                                 "ref": "D3",
@@ -9444,11 +9758,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9462,7 +9780,7 @@ var leoConfigNew = {
                                 }
                               },
                               "4": {
-                                "value": 0.09,
+                                "value": 0.5,
                                 "index": 4,
                                 "ref": "E3",
                                 "style": {
@@ -9473,11 +9791,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9491,7 +9813,7 @@ var leoConfigNew = {
                                 }
                               },
                               "5": {
-                                "value": 0.9,
+                                "value": 25,
                                 "index": 5,
                                 "formula": "(B3+C3)*E3/2",
                                 "ref": "F3",
@@ -9503,11 +9825,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9521,9 +9847,9 @@ var leoConfigNew = {
                                 }
                               },
                               "6": {
-                                "value": 4444.444444444444,
+                                "value": 20000,
                                 "index": 6,
-                                "formula": "POWER(D3, 2)*E3",
+                                "formula": "D3*D3*E3",
                                 "ref": "G3",
                                 "style": {
                                   "textAlign": "center",
@@ -9533,11 +9859,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9549,28 +9879,16 @@ var leoConfigNew = {
                                     "size": 11
                                   }
                                 }
-                              },
-                              "7": {
-                                "index": 7,
-                                "ref": "H3",
-                                "style": {
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
                               }
                             },
                             "index": 2,
-                            "height": 31.406250000000004
+                            "height": 24.609375
                           },
                           "3": {
                             "visible": true,
                             "cells": {
                               "0": {
-                                "value": "Cruise",
+                                "value": "Decel",
                                 "index": 0,
                                 "ref": "A4",
                                 "style": {
@@ -9582,11 +9900,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9600,7 +9922,7 @@ var leoConfigNew = {
                                 }
                               },
                               "1": {
-                                "value": 20,
+                                "value": 100,
                                 "index": 1,
                                 "ref": "B4",
                                 "style": {
@@ -9611,11 +9933,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9629,7 +9955,7 @@ var leoConfigNew = {
                                 }
                               },
                               "2": {
-                                "value": 20,
+                                "value": 0,
                                 "index": 2,
                                 "ref": "C4",
                                 "style": {
@@ -9640,11 +9966,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9658,7 +9988,7 @@ var leoConfigNew = {
                                 }
                               },
                               "3": {
-                                "value": 0,
+                                "value": -200,
                                 "index": 3,
                                 "formula": "(C4-B4)/E4",
                                 "ref": "D4",
@@ -9670,11 +10000,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9688,7 +10022,7 @@ var leoConfigNew = {
                                 }
                               },
                               "4": {
-                                "value": 0.075,
+                                "value": 0.5,
                                 "index": 4,
                                 "ref": "E4",
                                 "style": {
@@ -9699,11 +10033,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9717,7 +10055,7 @@ var leoConfigNew = {
                                 }
                               },
                               "5": {
-                                "value": 1.5,
+                                "value": 25,
                                 "index": 5,
                                 "formula": "(B4+C4)*E4/2",
                                 "ref": "F4",
@@ -9729,11 +10067,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9747,9 +10089,9 @@ var leoConfigNew = {
                                 }
                               },
                               "6": {
-                                "value": 0,
+                                "value": 20000,
                                 "index": 6,
-                                "formula": "POWER(D4, 2)*E4",
+                                "formula": "D4*D4*E4",
                                 "ref": "G4",
                                 "style": {
                                   "textAlign": "center",
@@ -9759,11 +10101,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9775,28 +10121,16 @@ var leoConfigNew = {
                                     "size": 11
                                   }
                                 }
-                              },
-                              "7": {
-                                "index": 7,
-                                "ref": "H4",
-                                "style": {
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
                               }
                             },
                             "index": 3,
-                            "height": 31.406250000000004
+                            "height": 24.609375
                           },
                           "4": {
                             "visible": true,
                             "cells": {
                               "0": {
-                                "value": "Decel",
+                                "value": "Dwell",
                                 "index": 0,
                                 "ref": "A5",
                                 "style": {
@@ -9808,11 +10142,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9826,7 +10164,7 @@ var leoConfigNew = {
                                 }
                               },
                               "1": {
-                                "value": 20,
+                                "value": 0,
                                 "index": 1,
                                 "ref": "B5",
                                 "style": {
@@ -9837,11 +10175,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9866,11 +10208,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9884,7 +10230,7 @@ var leoConfigNew = {
                                 }
                               },
                               "3": {
-                                "value": -235.2941176470588,
+                                "value": 0,
                                 "index": 3,
                                 "formula": "(C5-B5)/E5",
                                 "ref": "D5",
@@ -9896,11 +10242,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9914,7 +10264,7 @@ var leoConfigNew = {
                                 }
                               },
                               "4": {
-                                "value": 0.085,
+                                "value": 1,
                                 "index": 4,
                                 "ref": "E5",
                                 "style": {
@@ -9925,11 +10275,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9943,7 +10297,7 @@ var leoConfigNew = {
                                 }
                               },
                               "5": {
-                                "value": 0.85,
+                                "value": 0,
                                 "index": 5,
                                 "formula": "(B5+C5)*E5/2",
                                 "ref": "F5",
@@ -9955,11 +10309,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -9973,9 +10331,9 @@ var leoConfigNew = {
                                 }
                               },
                               "6": {
-                                "value": 4705.882352941177,
+                                "value": 0,
                                 "index": 6,
-                                "formula": "POWER(D5, 2)*E5",
+                                "formula": "D5*D5*E5",
                                 "ref": "G5",
                                 "style": {
                                   "textAlign": "center",
@@ -9985,11 +10343,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -10001,28 +10363,16 @@ var leoConfigNew = {
                                     "size": 11
                                   }
                                 }
-                              },
-                              "7": {
-                                "index": 7,
-                                "ref": "H5",
-                                "style": {
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
                               }
                             },
                             "index": 4,
-                            "height": 31.406250000000004
+                            "height": 24.609375
                           },
                           "5": {
                             "visible": true,
                             "cells": {
                               "0": {
-                                "value": "Dwell",
+                                "value": "Total:",
                                 "index": 0,
                                 "ref": "A6",
                                 "style": {
@@ -10034,237 +10384,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
                                       "clr": "#000000",
                                       "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "1": {
-                                "value": 0,
-                                "index": 1,
-                                "ref": "B6",
-                                "style": {
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
                                     },
                                     "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "2": {
-                                "value": 0,
-                                "index": 2,
-                                "ref": "C6",
-                                "style": {
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "3": {
-                                "value": 0,
-                                "index": 3,
-                                "formula": "(C6-B6)/E6",
-                                "ref": "D6",
-                                "style": {
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "4": {
-                                "value": 0.05,
-                                "index": 4,
-                                "ref": "E6",
-                                "style": {
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "5": {
-                                "value": 0,
-                                "index": 5,
-                                "formula": "(B6+C6)*E6/2",
-                                "ref": "F6",
-                                "style": {
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "6": {
-                                "value": 0,
-                                "index": 6,
-                                "formula": "POWER(D6, 2)*E6",
-                                "ref": "G6",
-                                "style": {
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "7": {
-                                "index": 7,
-                                "ref": "H6",
-                                "style": {
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "index": 5,
-                            "height": 31.406250000000004
-                          },
-                          "6": {
-                            "visible": true,
-                            "cells": {
-                              "0": {
-                                "value": "Total:",
-                                "index": 0,
-                                "ref": "A7",
-                                "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -10279,10 +10407,10 @@ var leoConfigNew = {
                                 }
                               },
                               "1": {
-                                "value": 40,
+                                "value": 100,
                                 "index": 1,
-                                "formula": "SUM(B3:B6)",
-                                "ref": "B7",
+                                "formula": "SUM(B3:B5)",
+                                "ref": "B6",
                                 "style": {
                                   "textAlign": "center",
                                   "verticalAlign": "middle",
@@ -10291,11 +10419,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -10309,10 +10441,10 @@ var leoConfigNew = {
                                 }
                               },
                               "2": {
-                                "value": 40,
+                                "value": 100,
                                 "index": 2,
-                                "formula": "SUM(C3:C6)",
-                                "ref": "C7",
+                                "formula": "SUM(C3:C5)",
+                                "ref": "C6",
                                 "style": {
                                   "textAlign": "center",
                                   "verticalAlign": "middle",
@@ -10321,11 +10453,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -10339,10 +10475,10 @@ var leoConfigNew = {
                                 }
                               },
                               "3": {
-                                "value": -13.071895424836583,
+                                "value": 0,
                                 "index": 3,
-                                "formula": "SUM(D3:D6)",
-                                "ref": "D7",
+                                "formula": "SUM(D3:D5)",
+                                "ref": "D6",
                                 "style": {
                                   "textAlign": "center",
                                   "verticalAlign": "middle",
@@ -10351,11 +10487,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -10369,10 +10509,10 @@ var leoConfigNew = {
                                 }
                               },
                               "4": {
-                                "value": 0.3,
+                                "value": 2,
                                 "index": 4,
-                                "formula": "SUM(E3:E6)",
-                                "ref": "E7",
+                                "formula": "SUM(E3:E5)",
+                                "ref": "E6",
                                 "style": {
                                   "textAlign": "center",
                                   "verticalAlign": "middle",
@@ -10381,11 +10521,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -10399,10 +10543,10 @@ var leoConfigNew = {
                                 }
                               },
                               "5": {
-                                "value": 3.25,
+                                "value": 50,
                                 "index": 5,
-                                "formula": "SUM(F3:F6)",
-                                "ref": "F7",
+                                "formula": "SUM(F3:F5)",
+                                "ref": "F6",
                                 "style": {
                                   "textAlign": "center",
                                   "verticalAlign": "middle",
@@ -10411,11 +10555,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -10429,10 +10577,10 @@ var leoConfigNew = {
                                 }
                               },
                               "6": {
-                                "value": 51.26233499935908,
+                                "value": 40000,
                                 "index": 6,
-                                "formula": "POWER(D7, 2)*E7",
-                                "ref": "G7",
+                                "formula": "SUM(G3:G5)",
+                                "ref": "G6",
                                 "style": {
                                   "textAlign": "center",
                                   "verticalAlign": "middle",
@@ -10441,11 +10589,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -10457,29 +10609,17 @@ var leoConfigNew = {
                                     "size": 11
                                   }
                                 }
-                              },
-                              "7": {
-                                "index": 7,
-                                "ref": "H7",
-                                "style": {
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
                               }
                             },
-                            "index": 6,
-                            "height": 31.406250000000004
+                            "index": 5,
+                            "height": 24.609375
                           },
-                          "7": {
+                          "6": {
                             "visible": true,
                             "cells": {
                               "0": {
                                 "index": 0,
-                                "ref": "A8",
+                                "ref": "A7",
                                 "style": {
                                   "background": "#e7e6e6",
                                   "textAlign": "center",
@@ -10489,11 +10629,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -10508,7 +10652,7 @@ var leoConfigNew = {
                               },
                               "1": {
                                 "index": 1,
-                                "ref": "B8",
+                                "ref": "B7",
                                 "style": {
                                   "background": "#e7e6e6",
                                   "textAlign": "center",
@@ -10518,11 +10662,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -10537,6 +10685,249 @@ var leoConfigNew = {
                               },
                               "2": {
                                 "index": 2,
+                                "ref": "C7",
+                                "style": {
+                                  "background": "#e7e6e6",
+                                  "textAlign": "center",
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "3": {
+                                "index": 3,
+                                "ref": "D7",
+                                "style": {
+                                  "background": "#e7e6e6",
+                                  "textAlign": "center",
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "4": {
+                                "index": 4,
+                                "ref": "E7",
+                                "style": {
+                                  "background": "#e7e6e6",
+                                  "textAlign": "center",
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "5": {
+                                "index": 5,
+                                "ref": "F7",
+                                "style": {
+                                  "background": "#e7e6e6",
+                                  "textAlign": "center",
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "6": {
+                                "index": 6,
+                                "ref": "G7",
+                                "style": {
+                                  "background": "#e7e6e6",
+                                  "textAlign": "center",
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              }
+                            },
+                            "index": 6,
+                            "height": 24.609375
+                          },
+                          "7": {
+                            "visible": true,
+                            "cells": {
+                              "0": {
+                                "value": "RMS Acceleration",
+                                "index": 0,
+                                "ref": "A8",
+                                "style": {
+                                  "background": "#e7e6e6",
+                                  "textAlign": "center",
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 12,
+                                    "bold": true
+                                  }
+                                }
+                              },
+                              "1": {
+                                "value": 141.4213562373095,
+                                "index": 1,
+                                "formula": "(G6/E6)^0.5",
+                                "ref": "B8",
+                                "style": {
+                                  "background": "#ffffff",
+                                  "textAlign": "center",
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "2": {
+                                "value": "rev/s^2",
+                                "index": 2,
                                 "ref": "C8",
                                 "style": {
                                   "background": "#e7e6e6",
@@ -10547,11 +10938,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -10560,7 +10955,8 @@ var leoConfigNew = {
                                 "fontAttrs": {
                                   "def": {
                                     "family": "Calibri",
-                                    "size": 11
+                                    "size": 12,
+                                    "bold": true
                                   }
                                 }
                               },
@@ -10576,11 +10972,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -10605,11 +11005,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -10634,11 +11038,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -10663,11 +11071,55 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              }
+                            },
+                            "index": 7,
+                            "height": 24.609375
+                          },
+                          "8": {
+                            "visible": true,
+                            "cells": {
+                              "0": {
+                                "index": 0,
+                                "ref": "A9",
+                                "style": {
+                                  "background": "#e7e6e6",
+                                  "textAlign": "center",
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -10680,29 +11132,9 @@ var leoConfigNew = {
                                   }
                                 }
                               },
-                              "7": {
-                                "index": 7,
-                                "ref": "H8",
-                                "style": {
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "index": 7,
-                            "height": 31.406250000000004
-                          },
-                          "8": {
-                            "visible": true,
-                            "cells": {
-                              "0": {
-                                "value": "RMS Acceleration",
-                                "index": 0,
-                                "ref": "A9",
+                              "1": {
+                                "index": 1,
+                                "ref": "B9",
                                 "style": {
                                   "background": "#e7e6e6",
                                   "textAlign": "center",
@@ -10712,43 +11144,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
                                       "clr": "#000000",
                                       "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 12,
-                                    "bold": true
-                                  }
-                                }
-                              },
-                              "1": {
-                                "value": 13.071895424836583,
-                                "index": 1,
-                                "formula": "(G7/E7)^0.5",
-                                "ref": "B9",
-                                "style": {
-                                  "background": "#ffffff",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
                                     },
                                     "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -10762,7 +11166,6 @@ var leoConfigNew = {
                                 }
                               },
                               "2": {
-                                "value": "rev/s^2",
                                 "index": 2,
                                 "ref": "C9",
                                 "style": {
@@ -10774,11 +11177,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -10787,8 +11194,7 @@ var leoConfigNew = {
                                 "fontAttrs": {
                                   "def": {
                                     "family": "Calibri",
-                                    "size": 12,
-                                    "bold": true
+                                    "size": 11
                                   }
                                 }
                               },
@@ -10804,11 +11210,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -10833,11 +11243,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -10862,11 +11276,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -10891,11 +11309,15 @@ var leoConfigNew = {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
-                                    "right": {
+                                    "top": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     },
                                     "bottom": {
+                                      "clr": "#000000",
+                                      "type": "thin"
+                                    },
+                                    "right": {
                                       "clr": "#000000",
                                       "type": "thin"
                                     }
@@ -10905,336 +11327,12 @@ var leoConfigNew = {
                                   "def": {
                                     "family": "Calibri",
                                     "size": 11
-                                  }
-                                }
-                              },
-                              "7": {
-                                "index": 7,
-                                "ref": "H9",
-                                "style": {
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
                                   }
                                 }
                               }
                             },
                             "index": 8,
-                            "height": 31.406250000000004
-                          },
-                          "9": {
-                            "visible": true,
-                            "cells": {
-                              "0": {
-                                "index": 0,
-                                "ref": "A10",
-                                "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "1": {
-                                "index": 1,
-                                "ref": "B10",
-                                "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "2": {
-                                "index": 2,
-                                "ref": "C10",
-                                "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "3": {
-                                "index": 3,
-                                "ref": "D10",
-                                "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "4": {
-                                "index": 4,
-                                "ref": "E10",
-                                "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "5": {
-                                "index": 5,
-                                "ref": "F10",
-                                "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "6": {
-                                "index": 6,
-                                "ref": "G10",
-                                "style": {
-                                  "background": "#e7e6e6",
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "7": {
-                                "index": 7,
-                                "ref": "H10",
-                                "style": {
-                                  "border": {
-                                    "left": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "index": 9,
-                            "height": 31.406250000000004
-                          },
-                          "10": {
-                            "visible": true,
-                            "cells": {
-                              "0": {
-                                "index": 0,
-                                "ref": "A11",
-                                "style": {
-                                  "border": {
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
-                              },
-                              "1": {
-                                "index": 1,
-                                "ref": "B11",
-                                "style": {
-                                  "border": {
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
-                              },
-                              "2": {
-                                "index": 2,
-                                "ref": "C11",
-                                "style": {
-                                  "border": {
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
-                              },
-                              "3": {
-                                "index": 3,
-                                "ref": "D11",
-                                "style": {
-                                  "border": {
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
-                              },
-                              "4": {
-                                "index": 4,
-                                "ref": "E11",
-                                "style": {
-                                  "border": {
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
-                              },
-                              "5": {
-                                "index": 5,
-                                "ref": "F11",
-                                "style": {
-                                  "border": {
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
-                              },
-                              "6": {
-                                "index": 6,
-                                "ref": "G11",
-                                "style": {
-                                  "border": {
-                                    "right": {
-                                      "clr": "#000000",
-                                      "type": "thin"
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "index": 10
+                            "height": 24.609375
                           }
                         }
                       }
@@ -11245,13 +11343,11 @@ var leoConfigNew = {
             },
             "validation": {
               "validResponse": {
-                "resource": "B1O8grSfz"
+                "resource": "Sk5X8Dpuf"
               },
               "rules": [],
               "preferences": {
-                "tolerance": false,
-                "tolerancePercentage": 1,
-                "precision": 2
+                "tolerance": false
               }
             }
           }
