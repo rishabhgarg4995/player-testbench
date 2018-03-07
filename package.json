@@ -1,11 +1,32 @@
 {
-    "name": "player-testbench",
-    "version": "0.0.1",
-    "description": "Leonardo Player Test Bench",
-    "author": "Compro Technologies",
-    "license": "ISC",
-    "main": "index.js",
-    "scripts": {
-        "start": "node index.js"
-    }
-  }
+  "name": "player-testbench",
+  "version": "0.0.1",
+  "description": "Leonardo Player Test Bench",
+  "author": "Compro Technologies",
+  "license": "ISC",
+  "engines": {
+    "node": "8.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
+}
