@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Leonardo Player Test Bench</title>
+
+  <!-- dependencies -->
+  <script src="/libs/jquery.js"></script>
+  <!-- dependencies -->
+
+  <!-- css -->
+  <link rel="stylesheet" type="text/css" href="/stylesheets/test-bench.css">
+  <link rel="stylesheet" type="text/css" href="/libs/LeonardoPlayer/leonardoPlayer.min.css">
+  <!-- css -->
+
+  <!--javascript Resources for Leonardo Player -->
+  <script src="/libs/LeonardoPlayer/leonardoPlayer.min.js"></script>
+  <!-- <script src="libs/LeonardoPlayer/ribbon.scripts.bundle.js"></script> -->
+  <!--javascript Resources for Leonardo Player -->
+
+  <!-- test bench files -->
+  <script src="/data/inputData.js"></script>
+  <script src="/src/script/test-bench.js"></script>
+  <!-- test bench files -->
+</head>
+
+<body onload=init()>
+
+  <div class="mainContainer">
+    <div class="topBand"> Leonardo Player - Test Bench </div>
+    <div class="mainFrame">
+      <div class="configuratorPane">
+        <div class="header"> Configuration for Leonardo Widget </div>
+        <div class="useCases">
+          <div class="row">
+            <span class="spanClass"> Type </span>
+            <select id="mode" onchange="onModeChange(event.target.value)">
+
+            </select>
+          </div>
+          <div class="row">
+            <span class="spanClass"> Use Case </span>
+            <select id="usecase">
+            </select>
+          </div>
+          <button class="submitButton" onclick="changeConfig()"> Apply </button>
+        </div>
+        <div class="header"> Configuration for Leonardo Widget Container</div>
+        <!--//added code for Container Height and Container WIdth-->
+        <div class="containerConfig">
+          <div class="row">
+            <span class="spanClass"> Container Width</span>
+            <input class="inputClass" type="text" value=" " id="input1" >
+          </div>
+          <div class="row">
+            <span class="spanClass"> Container Height </span>
+            <input class="inputClass" type="text" value=" " id="input2">
+          </div>
+          <button class="submitButton" onclick="updateContainerDimensions()"> Apply </button>
+        </div>
+        <!--//code end-->
+
+      </div>
+      <div class="splitter"><button class="splitterSymbol" onclick="toggleConfiguratorPane()">&lt;&lt;</button></div>
+      <div class="spreadsheetpane" id="spreadsheetpane">
+        <div id="leonardoContainer" class="leonardoContainer"></div>
+
+        <div class="buttonPanel ">
+          <button class="buttonClass" onclick = "checkAnswer()"> Check My Work </button>
+          <button class="buttonClass" onclick = "tryAgain()"> Try Again </button>
+          <button class="buttonClass" onclick = "reset()"> Reset </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
