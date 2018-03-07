@@ -8,7 +8,7 @@ var leoConfigNew = {
         "type1": {
             "dim": {
                 "height": "400px",
-                "width": "1000px"
+                "width": "1100px"
             },
             "config": {
                 "meta": {
@@ -4923,7 +4923,7 @@ var leoConfigNew = {
         "type2": {
             "dim": {
                 "height": "500px",
-                "width": "1000px"
+                "width": "1100px"
             },
             "config": {
                 "meta": {
