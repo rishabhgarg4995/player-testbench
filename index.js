@@ -26,15 +26,15 @@ function getUnauthorizedResponse(req) {
     .use(bodyParser.json())
     .use(bodyParser.urlencoded({ extended: false }))
     .use(cookieParser())*/
-app
+/*app
     .use(express.static(path.join(__dirname, 'public')))
     .get('*', (req, res) => {
         res.sendFile(path.join(__dirname, 'launch.html'));
     })
-    .listen(PORT, () => console.log(`Listening on ${ PORT }`));
+    .listen(PORT, () => console.log(`Listening on ${ PORT }`));*/
 
-/*express()
+app
   .set('views', path.join(__dirname, 'views'))
   .set('view engine', 'ejs')
   .get('/', (req, res) => res.render('pages/index1'))
-  .listen(PORT, () => console.log(`Listening on ${ PORT }`))*/
+  .listen(PORT, () => console.log(`Listening on ${ PORT }`));
