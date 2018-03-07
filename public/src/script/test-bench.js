@@ -79,13 +79,17 @@ function onModeChange(mode) {
     while (select.hasChildNodes()) {
         select.removeChild(select.firstChild);
     }
-    if ((mode.toLowerCase()) == "question") {
+    /*if ((mode.toLowerCase()) == "question") {
         for (var type in leoConfigNew["type"]) {
             leoConfigNew["type"][type].config.meta.type == (mode.toLowerCase()) ? useCaseArr.push(type) : null;
         }
 
     } else {
         useCaseArr = Object.keys(leoConfigNew["type"]);
+    }*/
+
+    for (var type in leoConfigNew["type"]) {
+        leoConfigNew["type"][type].config.meta.type == (mode.toLowerCase()) ? useCaseArr.push(type) : null;
     }
     populateDropdown(select, useCaseArr);
 }
