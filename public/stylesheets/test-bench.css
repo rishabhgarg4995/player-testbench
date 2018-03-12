@@ -1,14 +1,15 @@
 html,body{
 	height:100%;
 	margin: 0px;
-
+	padding: 0px;
 }
 
 .mainContainer {
 	height: 100%;
 	width: 100%;
-	display:inline-block;
+	display: block;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	overflow: hidden;
 }
 
 .topBand {
@@ -23,46 +24,88 @@ html,body{
 }
 
 .mainFrame{
+	display: flex;
 	height: calc(100% - 54px);
-	width: 100%;	
+	width: 100%;
+	position: relative;	
 }
 
 .configuratorPane {
-	float:left;
+	display: inline-block;
 	height: 100%;
 	width: 30%;
 	border-color: black;
+	position: relative;
 }
 
-.hideConfigPane{
+.configuratorPane.hideConfigPane{
 	display: none;
 }
 
+.configuratorPane .useCaseSelector{
+	height: 205px;
+	position: relative;
+}
+
+.configurationSetter{
+	height: calc(100% - 255px);
+	overflow: auto;
+	border-top: solid 1px;
+}
+
+.btnContainer{
+	height: 50px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	display: flex;
+	width: 100%;
+	border-top: solid 1px;
+	box-sizing: border-box;
+}
+
 .submitButton{
-	margin-top: 20px; 
+	margin: auto; 
 	background-color: #337ab7;
 	border:1px solid #2e6da4;
 	color:white;
 	padding: 5px;
-	margin-left: 45%;    
 }
 
-.spreadsheetpane{
-	float:left;
+.assesmentContainer{
+	box-sizing: border-box;
+	display: inline-block;
 	height: 100%;
 	width: calc(70% - 20px);
+	position: absolute;
+	right: 0px;
 }
 
-.expandSpreadsheetPane{
+.assesmentContainer.hideButtons .spreadsheetpane {
+	height: 100%;
+}
+.assesmentContainer.resizeAssesmentPane {
+	width: calc(100% - 20px);;
+}
+
+.assesmentContainer .spreadsheetpane{
+	box-sizing: border-box;
+	height: calc(100% - 50px);
+	overflow: auto;
+	padding: 50px 0px 0px 50px;
+}
+
+.assesmentContainer .spreadsheetpane .expandSpreadsheetPane{
 	width: calc(100% - 20px);    
 }
 
 .splitter{
-	width:20px;
-	float:left;
-	height: 100%;
 	background: #d5d5d5;
 	color: white;
+	width:20px;
+	display: inline-block;
+	height: 100% ;
+	position: relative;
 }
 
 .splitterSymbol{
@@ -86,6 +129,10 @@ html,body{
 
 .buttonPanel {
 	justify-content: center;
+	height: 50px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
 }
 
 .hideBtns{
@@ -102,7 +149,6 @@ html,body{
 	border-bottom: 1px solid transparent;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
-	margin-top:10px;
 	margin-bottom:10px;
 }
 
@@ -114,7 +160,7 @@ html,body{
 	padding-right: 15px;
 	padding-left: 10px;
 	width: 30%;
-    	display: inline-block; 
+    display: inline-block; 
 }
 
 .row {
@@ -135,13 +181,21 @@ html,body{
 }
 
 .buttonClass {
-	margin-top: 10px; 
 	background-color: #337ab7;
 	border: 1px solid #2e6da4;
 	color:white;
+	margin: auto; 
 	padding: 5px;
-	margin-left: 17px;
 }
 
+.textArea{
+	margin-left: 70px
+}
 
-
+.label{
+	font-weight: bold;
+	font-size: 14px;
+	position: relative;
+	padding: 5px 0px 5px 70px;
+    display: block; 
+}
