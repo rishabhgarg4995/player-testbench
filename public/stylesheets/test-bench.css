@@ -48,8 +48,8 @@ html,body{
 }
 
 .spreadsheetpane{
+	padding-bottom: 99999px; margin-bottom: -99999px;
 	float:left;
-	height: 100%;
 	width: calc(70% - 20px);
 }
 
@@ -57,10 +57,15 @@ html,body{
 	width: calc(100% - 20px);    
 }
 
+.container{
+	overflow: hidden;
+}
+
 .splitter{
+	padding-bottom: 99999px; margin-bottom: -99999px;
 	width:20px;
 	float:left;
-	height: 100%;
+	height: 100% ;
 	background: #d5d5d5;
 	color: white;
 }
@@ -81,11 +86,15 @@ html,body{
 }
 
 .leonardoContainer {
+	padding: 50px 0 0 50px;
 	height: 400px;
 }
 
 .buttonPanel {
 	justify-content: center;
+	float: left;
+	padding-left: 35px;
+	width: 100%;
 }
 
 .hideBtns{
@@ -143,5 +152,7 @@ html,body{
 	margin-left: 17px;
 }
 
-
+.textArea{
+	margin-left: 70px
+}
 

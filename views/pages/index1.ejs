@@ -30,28 +30,53 @@
         <div class="containerConfig">
           <div class="row">
             <span class="spanClass"> Container Width</span>
-            <input class="inputClass" type="text" value=" " id="input1" >
+            <input class="inputClass" type="text" value="" id="input1" >
           </div>
           <div class="row">
             <span class="spanClass"> Container Height </span>
-            <input class="inputClass" type="text" value=" " id="input2">
+            <input class="inputClass" type="text" value="" id="input2">
           </div>
-          <button class="submitButton" onclick="updateContainerDimensions()"> Apply </button>
         </div>
         <!--//code end-->
 
-      </div>
-      <div class="splitter"><button class="splitterSymbol" onclick="toggleConfiguratorPane()">&lt;&lt;</button></div>
-      <div class="spreadsheetpane" id="spreadsheetpane">
-        <div id="leonardoContainer" class="leonardoContainer"></div>
 
-        <div class="buttonPanel ">
-          <button class="buttonClass" onclick = "checkAnswer()"> Check My Work </button>
-          <button class="buttonClass" onclick = "tryAgain()"> Try Again </button>
-          <button class="buttonClass" onclick = "reset()"> Reset </button>
+        <div class="header"> Ui Overrides for Leonardo Widget</div>
+        <div class="uiOverrides">
+          <div class="row">
+              <span class="spanClass"> Alignment </span>
+              <select id="alignment">
+                <option value="default">Default</option>
+                <option value="center">Center</option>
+              </select>
+            </div>
+          <div class="row">
+            <span class="spanClass"> Height </span>
+            <select id="height">
+              <option value="default">Default</option>
+              <option value="expand">Expand</option>
+            </select>
+          </div>
+          <div class="row">
+              <textarea class="textArea" rows=5 cols=40 id="widgetStyles"></textarea>
+          </div>
+          <button class="submitButton" onclick="updateContainerUI()"> Apply </button>
         </div>
+
       </div>
-    </div>
+
+      <div class="container">
+          <div class="splitter" id="splitter"><button class="splitterSymbol" onclick="toggleConfiguratorPane()">&lt;&lt;</button></div>
+          <div class="spreadsheetpane" id="spreadsheetpane">
+            <div id="leonardoContainer" class="leonardoContainer"></div>
+            <div class="buttonPanel" id="buttonPanel">
+                <button class="buttonClass" onclick = "checkAnswer()"> Check My Work </button>
+                <button class="buttonClass" onclick = "tryAgain()"> Try Again </button>
+                <button class="buttonClass" onclick = "reset()"> Reset </button>
+              </div>
+          </div>
+      </div>
+      
+      </div>
   </div>
 
 </body>

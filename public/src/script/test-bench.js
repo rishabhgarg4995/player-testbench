@@ -4,28 +4,46 @@ function changeContainerDim(containerHeight, containerWidth) {
     containerWidth = parseInt(containerWidth.trim());
     element.style.width = containerWidth + "px";
     element.style.height = containerHeight + "px";
+    document.getElementById("input1").value = containerWidth;
+    document.getElementById("input2").value = containerHeight;
 }
 
-function updateContainerDimensions() {
-    var containerHeight = getValueHeight(input1);
-    var containerWidth = getValueWidth(input2);
+function updateContainerUI(){
+    
+    this.leonardoWidget.destroy();
+
+    var widgetStyles = getValue("widgetStyles");
+    var mode = getValue('mode');
+    var usecase = getValue('usecase');
+
+    var height = getValue("height");
+    var horizontalAlignment = getValue("alignment");
+
+    var uiStyle={};
+    uiStyle["widgetStyles"] =  JSON.parse(widgetStyles);
+    uiStyle["height"] = height;
+    uiStyle["horizontalAlignment"] = horizontalAlignment;
+
+    var inputHeight = getValue("input2");
+    var inputWidth = getValue("input1");
+    var containerHeight = inputHeight !="" ? inputHeight : leoConfigNew.type[usecase].dim.height;
+    var containerWidth = inputWidth !="" ? inputWidth : leoConfigNew.type[usecase].dim.width;
+
+    var heightDiff = parseInt(leoConfigNew.type[usecase].dim.height.trim()) - inputHeight;
+    document.getElementById("buttonPanel").style.marginTop = heightDiff + "px";
+
     changeContainerDim(containerHeight, containerWidth);
+    paintLeonardoWidget(mode, usecase, uiStyle);
 }
 
 // getting value from input boxes
-function getValueWidth(id) {
-    var selectedInput = document.getElementById('input1').value;
-    console.log(selectedInput);
-    return selectedInput;
-}
-function getValueHeight(id) {
-    var selectedInput = document.getElementById('input2').value;
-    console.log(selectedInput);
+function getValue(id) {
+    var selectedInput = document.getElementById(id).value;
     return selectedInput;
 }
 
 function checkAnswer() {
-    var currUsecase = document.getElementById('usecase').value;
+    var currUsecase = getValue('usecase');
     var scoreObj = this.leonardoWidget.score(this.leonardoWidget.getState().grid);
     // var scoreObj = this.leonardoWidget.score(leoConfigNew["type"][currUsecase]["config"]);
     this.leonardoWidget.displayFeedback(scoreObj);
@@ -37,9 +55,20 @@ function reset() {
     this.leonardoWidget.reset();
 }
 
-function paintLeonardoWidget(mode, usecaseValue) {
+function paintLeonardoWidget(mode, usecaseValue, uiOverride) {
 
-    let uiStyle = (mode == "Presentation") ? { widgetStyles: '{"box-shadow": "6px 6px 9px #ddd", "border": "1px solid #ddd"}', horizontalAlignment: "center" } : {};
+    var uiStyle = uiOverride;
+
+    if(uiOverride == undefined){
+        var uiStyle = {
+            widgetStyles: {
+                "box-shadow":"6px 6px 9px #ddd",
+                "border": "1px solid #ddd"
+                }
+            };
+    }
+
+    document.getElementById("widgetStyles").innerHTML = JSON.stringify(uiStyle.widgetStyles,null,2);
 
     if (!leoConfigNew.type[usecaseValue].config.meta) {
         leoConfigNew.type[usecaseValue].config.meta = {};
@@ -54,22 +83,25 @@ function paintLeonardoWidget(mode, usecaseValue) {
     else {
         document.querySelector(".buttonPanel").classList.add("hideBtns");
     }
+    uiStyle.widgetStyles  = JSON.stringify(uiStyle.widgetStyles);
 
     this.leonardoWidget = this.leonardoPlayer.addWidget("WB1", document.querySelector("#leonardoContainer"), { config: leoConfigNew.type[usecaseValue].config, events: {}, uiStyle: uiStyle });
 
     leoConfigNew.type[usecaseValue].config.meta.type = originalConfig;
-
 }
 
 function changeConfig() {
-    var mode = document.getElementById('mode').value;
-    var usecase = document.getElementById('usecase').value;
+    var mode = getValue('mode');
+    var usecase = getValue('usecase');
 
     this.leonardoWidget.destroy();
     let uiStyle = (mode == "Presentation") ? { widgetStyles: '{"box-shadow": "6px 6px 9px #ddd", "border": "1px solid #ddd"}', horizontalAlignment: "center" } : {};
     changeContainerDim(leoConfigNew.type[usecase].dim.height, leoConfigNew.type[usecase].dim.width)
     paintLeonardoWidget(mode, usecase);
 
+    document.getElementById("alignment").value="default";
+    document.getElementById("height").value="default";
+    document.getElementById("buttonPanel").style.marginTop =  "0px";
 }
 function onModeChange(mode) {
     var select = document.getElementById('usecase');
