@@ -5,10 +5,10 @@ var leoConfigNew = {
     ]
     ,
     "type": {
-        "basic": {
+        "presentation1": {
           "dim": {
             "height": "500px",
-            "width": "1100px"
+            "width": "900px"
           },
           "config": {
             "meta": {
@@ -918,6 +918,1270 @@ var leoConfigNew = {
                                       "clr": "#70ad47",
                                       "type": "thin"
                                     }
+                                  }
+                                }
+                              }
+                            },
+                            "index": 5
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "presentation2": {
+          "dim": {
+            "height": "500px",
+            "width": "1500px"
+          },
+          "config": {
+            "meta": {
+              "title": "Presentation",
+              "type": "presentation"
+            },
+            "content": {
+              "canvas": {
+                "resource": "rJrrfj7Yf",
+                "preferences": {
+                  "contextMenu": {
+                    "type": "default"
+                  },
+                  "ribbon": {
+                    "visible": false,
+                    "collapsed": false,
+                    "type": "type1"
+                  },
+                  "sheetbar": {
+                    "visible": false,
+                    "allowInsertDelete": false,
+                    "allowRename": false
+                  },
+                  "formulabar": {
+                    "visible": false,
+                    "namebox": false,
+                    "expanded": false
+                  },
+                  "grid": {
+                    "rowHeader": false,
+                    "colHeader": false,
+                    "readOnly": true
+                  }
+                }
+              }
+            },
+            "resources": {
+              "rJrrfj7Yf": {
+                "type": "spreadsheet",
+                "spreadsheet": {
+                  "data": {
+                    "activeSheet": "Sheet1",
+                    "defaults": {
+                      "rowHeight": 20,
+                      "columnWidth": 64
+                    },
+                    "sheets": {
+                      "0": {
+                        "name": "Sheet1",
+                        "selection": "B2:B2",
+                        "activeCell": "B2:B2",
+                        "frozenRows": 0,
+                        "frozenColumns": 0,
+                        "showGridLines": true,
+                        "mergedCells": [
+                          "A1:H1"
+                        ],
+                        "defaults": {
+                          "cellFontAttrs": {
+                            "family": "Arial",
+                            "size": "12"
+                          }
+                        },
+                        "columns": {
+                          "0": {
+                            "visible": true,
+                            "index": 0,
+                            "width": 133
+                          },
+                          "1": {
+                            "visible": true,
+                            "index": 1,
+                            "width": 140
+                          },
+                          "2": {
+                            "visible": true,
+                            "index": 2,
+                            "width": 119
+                          },
+                          "3": {
+                            "visible": true,
+                            "index": 3,
+                            "width": 112
+                          },
+                          "4": {
+                            "visible": true,
+                            "index": 4,
+                            "width": 140
+                          },
+                          "5": {
+                            "visible": true,
+                            "index": 5,
+                            "width": 126
+                          },
+                          "6": {
+                            "visible": true,
+                            "index": 6,
+                            "width": 210
+                          },
+                          "7": {
+                            "visible": true,
+                            "index": 7,
+                            "width": 189
+                          }
+                        },
+                        "rows": {
+                          "0": {
+                            "visible": true,
+                            "cells": {
+                              "0": {
+                                "value": "Load Side",
+                                "index": 0,
+                                "ref": "A1",
+                                "style": {
+                                  "background": "#e2f0d9",
+                                  "textAlign": "center",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11,
+                                    "bold": true
+                                  }
+                                }
+                              },
+                              "1": {
+                                "index": 1,
+                                "ref": "B1",
+                                "style": {
+                                  "textAlign": "center",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11,
+                                    "bold": true
+                                  }
+                                }
+                              },
+                              "2": {
+                                "index": 2,
+                                "ref": "C1",
+                                "style": {
+                                  "textAlign": "center",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11,
+                                    "bold": true
+                                  }
+                                }
+                              },
+                              "3": {
+                                "index": 3,
+                                "ref": "D1",
+                                "style": {
+                                  "textAlign": "center",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11,
+                                    "bold": true
+                                  }
+                                }
+                              },
+                              "4": {
+                                "index": 4,
+                                "ref": "E1",
+                                "style": {
+                                  "textAlign": "center",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11,
+                                    "bold": true
+                                  }
+                                }
+                              },
+                              "5": {
+                                "index": 5,
+                                "ref": "F1",
+                                "style": {
+                                  "textAlign": "center",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11,
+                                    "bold": true
+                                  }
+                                }
+                              },
+                              "6": {
+                                "index": 6,
+                                "ref": "G1",
+                                "style": {
+                                  "textAlign": "center",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11,
+                                    "bold": true
+                                  }
+                                }
+                              },
+                              "7": {
+                                "index": 7,
+                                "ref": "H1",
+                                "style": {
+                                  "textAlign": "center",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11,
+                                    "bold": true
+                                  }
+                                }
+                              }
+                            },
+                            "index": 0
+                          },
+                          "1": {
+                            "visible": true,
+                            "cells": {
+                              "0": {
+                                "value": "Segment duration (t)\r\ns",
+                                "index": 0,
+                                "ref": "A2",
+                                "style": {
+                                  "background": "#e2f0d9",
+                                  "wrap": true,
+                                  "textAlign": "center",
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11,
+                                    "bold": true
+                                  }
+                                }
+                              },
+                              "1": {
+                                "value": "Distance travelled (s)\r\nrev",
+                                "index": 1,
+                                "ref": "B2",
+                                "style": {
+                                  "background": "#e2f0d9",
+                                  "wrap": true,
+                                  "textAlign": "center",
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11,
+                                    "bold": true
+                                  }
+                                }
+                              },
+                              "2": {
+                                "value": "Initial Velocity (u)\r\nrev/s",
+                                "index": 2,
+                                "ref": "C2",
+                                "style": {
+                                  "background": "#e2f0d9",
+                                  "wrap": true,
+                                  "textAlign": "center",
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11,
+                                    "bold": true
+                                  }
+                                }
+                              },
+                              "3": {
+                                "value": "Final Velocity (v)\r\nrev/s",
+                                "index": 3,
+                                "ref": "D2",
+                                "style": {
+                                  "background": "#e2f0d9",
+                                  "wrap": true,
+                                  "textAlign": "center",
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11,
+                                    "bold": true
+                                  }
+                                }
+                              },
+                              "4": {
+                                "value": "Distance travelled (s)\r\nrev",
+                                "index": 4,
+                                "ref": "E2",
+                                "style": {
+                                  "background": "#e2f0d9",
+                                  "wrap": true,
+                                  "textAlign": "center",
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11,
+                                    "bold": true
+                                  }
+                                }
+                              },
+                              "5": {
+                                "value": "Acceleration (a)\r\nrad/s<sup>2</sup>",
+                                "index": 5,
+                                "ref": "F2",
+                                "style": {
+                                  "background": "#e2f0d9",
+                                  "wrap": true,
+                                  "textAlign": "center",
+                                  "verticalAlign": "middle",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11,
+                                    "bold": true
+                                  }
+                                }
+                              },
+                              "6": {
+                                "value": "Load Inertia (J<sub>Load</sub>)\r\nkg-m<sup>2</sup>",
+                                "index": 6,
+                                "ref": "G2",
+                                "style": {
+                                  "background": "#e2f0d9",
+                                  "wrap": true,
+                                  "textAlign": "center",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11,
+                                    "bold": true
+                                  }
+                                }
+                              },
+                              "7": {
+                                "value": "Total Torque (T<sub>T</sub>)\r\nNm",
+                                "index": 7,
+                                "ref": "H2",
+                                "style": {
+                                  "background": "#e2f0d9",
+                                  "wrap": true,
+                                  "textAlign": "center",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "right": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11,
+                                    "bold": true
+                                  }
+                                }
+                              }
+                            },
+                            "index": 1,
+                            "height": 46.875
+                          },
+                          "2": {
+                            "visible": true,
+                            "cells": {
+                              "0": {
+                                "value": 0.09,
+                                "index": 0,
+                                "ref": "A3",
+                                "style": {
+                                  "textAlign": "center",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "1": {
+                                "value": 0.9,
+                                "index": 1,
+                                "ref": "B3",
+                                "style": {
+                                  "textAlign": "center",
+                                  "border": {
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "2": {
+                                "value": 0,
+                                "index": 2,
+                                "ref": "C3",
+                                "style": {
+                                  "textAlign": "center",
+                                  "border": {
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "3": {
+                                "value": 20,
+                                "index": 3,
+                                "ref": "D3",
+                                "style": {
+                                  "textAlign": "center",
+                                  "border": {
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "4": {
+                                "value": 0.9,
+                                "index": 4,
+                                "ref": "E3",
+                                "style": {
+                                  "textAlign": "center",
+                                  "border": {
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "5": {
+                                "value": 1396.263402,
+                                "index": 5,
+                                "ref": "F3",
+                                "style": {
+                                  "textAlign": "center",
+                                  "border": {
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "6": {
+                                "value": 0.006,
+                                "index": 6,
+                                "ref": "G3",
+                                "style": {
+                                  "textAlign": "center",
+                                  "border": {
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "7": {
+                                "value": 10.87758,
+                                "index": 7,
+                                "ref": "H3",
+                                "style": {
+                                  "textAlign": "center",
+                                  "border": {
+                                    "top": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              }
+                            },
+                            "index": 2
+                          },
+                          "3": {
+                            "visible": true,
+                            "cells": {
+                              "0": {
+                                "value": 0.075,
+                                "index": 0,
+                                "ref": "A4",
+                                "style": {
+                                  "textAlign": "center",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "1": {
+                                "value": 1.5,
+                                "index": 1,
+                                "ref": "B4",
+                                "style": {
+                                  "textAlign": "center"
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "2": {
+                                "value": 20,
+                                "index": 2,
+                                "ref": "C4",
+                                "style": {
+                                  "textAlign": "center"
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "3": {
+                                "value": 20,
+                                "index": 3,
+                                "ref": "D4",
+                                "style": {
+                                  "textAlign": "center"
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "4": {
+                                "value": 1.5,
+                                "index": 4,
+                                "ref": "E4",
+                                "style": {
+                                  "textAlign": "center"
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "5": {
+                                "value": 0,
+                                "index": 5,
+                                "ref": "F4",
+                                "style": {
+                                  "textAlign": "center"
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "6": {
+                                "value": 0.006,
+                                "index": 6,
+                                "ref": "G4",
+                                "style": {
+                                  "textAlign": "center"
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "7": {
+                                "value": 2.5,
+                                "index": 7,
+                                "ref": "H4",
+                                "style": {
+                                  "textAlign": "center"
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              }
+                            },
+                            "index": 3
+                          },
+                          "4": {
+                            "visible": true,
+                            "cells": {
+                              "0": {
+                                "value": 0.085,
+                                "index": 0,
+                                "ref": "A5",
+                                "style": {
+                                  "textAlign": "center",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "1": {
+                                "value": 0.85,
+                                "index": 1,
+                                "ref": "B5",
+                                "style": {
+                                  "textAlign": "center"
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "2": {
+                                "value": 20,
+                                "index": 2,
+                                "ref": "C5",
+                                "style": {
+                                  "textAlign": "center"
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "3": {
+                                "value": 0,
+                                "index": 3,
+                                "ref": "D5",
+                                "style": {
+                                  "textAlign": "center"
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "4": {
+                                "value": 0.85,
+                                "index": 4,
+                                "ref": "E5",
+                                "style": {
+                                  "textAlign": "center"
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "5": {
+                                "value": -1478.396543,
+                                "index": 5,
+                                "ref": "F5",
+                                "style": {
+                                  "textAlign": "center"
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "6": {
+                                "value": 0.006,
+                                "index": 6,
+                                "ref": "G5",
+                                "style": {
+                                  "textAlign": "center"
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "7": {
+                                "value": -6.37038,
+                                "index": 7,
+                                "ref": "H5",
+                                "style": {
+                                  "textAlign": "center"
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              }
+                            },
+                            "index": 4
+                          },
+                          "5": {
+                            "visible": true,
+                            "cells": {
+                              "0": {
+                                "value": 0.05,
+                                "index": 0,
+                                "ref": "A6",
+                                "style": {
+                                  "textAlign": "center",
+                                  "border": {
+                                    "left": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    },
+                                    "bottom": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "1": {
+                                "value": 0,
+                                "index": 1,
+                                "ref": "B6",
+                                "style": {
+                                  "textAlign": "center",
+                                  "border": {
+                                    "bottom": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "2": {
+                                "value": 0,
+                                "index": 2,
+                                "ref": "C6",
+                                "style": {
+                                  "textAlign": "center",
+                                  "border": {
+                                    "bottom": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "3": {
+                                "value": 0,
+                                "index": 3,
+                                "ref": "D6",
+                                "style": {
+                                  "textAlign": "center",
+                                  "border": {
+                                    "bottom": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "4": {
+                                "value": 0,
+                                "index": 4,
+                                "ref": "E6",
+                                "style": {
+                                  "textAlign": "center",
+                                  "border": {
+                                    "bottom": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "5": {
+                                "value": 0,
+                                "index": 5,
+                                "ref": "F6",
+                                "style": {
+                                  "textAlign": "center",
+                                  "border": {
+                                    "bottom": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "6": {
+                                "value": 0.006,
+                                "index": 6,
+                                "ref": "G6",
+                                "style": {
+                                  "textAlign": "center",
+                                  "border": {
+                                    "bottom": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
+                                  }
+                                }
+                              },
+                              "7": {
+                                "value": 0.5,
+                                "index": 7,
+                                "ref": "H6",
+                                "style": {
+                                  "textAlign": "center",
+                                  "border": {
+                                    "bottom": {
+                                      "clr": "#70ad47",
+                                      "type": "thin"
+                                    }
+                                  }
+                                },
+                                "fontAttrs": {
+                                  "def": {
+                                    "family": "Calibri",
+                                    "size": 11
                                   }
                                 }
                               }
@@ -6807,1270 +8071,7 @@ var leoConfigNew = {
             }
           }
         },
-        "complete": {
-          "dim": {
-            "height": "500px",
-            "width": "1500px"
-          },
-          "config": {
-            "meta": {
-              "title": "Presentation",
-              "type": "presentation"
-            },
-            "content": {
-              "canvas": {
-                "resource": "rJrrfj7Yf",
-                "preferences": {
-                  "contextMenu": {
-                    "type": "default"
-                  },
-                  "ribbon": {
-                    "visible": false,
-                    "collapsed": false,
-                    "type": "type1"
-                  },
-                  "sheetbar": {
-                    "visible": false,
-                    "allowInsertDelete": false,
-                    "allowRename": false
-                  },
-                  "formulabar": {
-                    "visible": false,
-                    "namebox": false,
-                    "expanded": false
-                  },
-                  "grid": {
-                    "rowHeader": false,
-                    "colHeader": false,
-                    "readOnly": true
-                  }
-                }
-              }
-            },
-            "resources": {
-              "rJrrfj7Yf": {
-                "type": "spreadsheet",
-                "spreadsheet": {
-                  "data": {
-                    "activeSheet": "Sheet1",
-                    "defaults": {
-                      "rowHeight": 20,
-                      "columnWidth": 64
-                    },
-                    "sheets": {
-                      "0": {
-                        "name": "Sheet1",
-                        "selection": "B2:B2",
-                        "activeCell": "B2:B2",
-                        "frozenRows": 0,
-                        "frozenColumns": 0,
-                        "showGridLines": true,
-                        "mergedCells": [
-                          "A1:H1"
-                        ],
-                        "defaults": {
-                          "cellFontAttrs": {
-                            "family": "Arial",
-                            "size": "12"
-                          }
-                        },
-                        "columns": {
-                          "0": {
-                            "visible": true,
-                            "index": 0,
-                            "width": 133
-                          },
-                          "1": {
-                            "visible": true,
-                            "index": 1,
-                            "width": 140
-                          },
-                          "2": {
-                            "visible": true,
-                            "index": 2,
-                            "width": 119
-                          },
-                          "3": {
-                            "visible": true,
-                            "index": 3,
-                            "width": 112
-                          },
-                          "4": {
-                            "visible": true,
-                            "index": 4,
-                            "width": 140
-                          },
-                          "5": {
-                            "visible": true,
-                            "index": 5,
-                            "width": 126
-                          },
-                          "6": {
-                            "visible": true,
-                            "index": 6,
-                            "width": 210
-                          },
-                          "7": {
-                            "visible": true,
-                            "index": 7,
-                            "width": 189
-                          }
-                        },
-                        "rows": {
-                          "0": {
-                            "visible": true,
-                            "cells": {
-                              "0": {
-                                "value": "Load Side",
-                                "index": 0,
-                                "ref": "A1",
-                                "style": {
-                                  "background": "#e2f0d9",
-                                  "textAlign": "center",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "top": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11,
-                                    "bold": true
-                                  }
-                                }
-                              },
-                              "1": {
-                                "index": 1,
-                                "ref": "B1",
-                                "style": {
-                                  "textAlign": "center",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "top": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11,
-                                    "bold": true
-                                  }
-                                }
-                              },
-                              "2": {
-                                "index": 2,
-                                "ref": "C1",
-                                "style": {
-                                  "textAlign": "center",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "top": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11,
-                                    "bold": true
-                                  }
-                                }
-                              },
-                              "3": {
-                                "index": 3,
-                                "ref": "D1",
-                                "style": {
-                                  "textAlign": "center",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "top": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11,
-                                    "bold": true
-                                  }
-                                }
-                              },
-                              "4": {
-                                "index": 4,
-                                "ref": "E1",
-                                "style": {
-                                  "textAlign": "center",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "top": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11,
-                                    "bold": true
-                                  }
-                                }
-                              },
-                              "5": {
-                                "index": 5,
-                                "ref": "F1",
-                                "style": {
-                                  "textAlign": "center",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "top": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11,
-                                    "bold": true
-                                  }
-                                }
-                              },
-                              "6": {
-                                "index": 6,
-                                "ref": "G1",
-                                "style": {
-                                  "textAlign": "center",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "top": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11,
-                                    "bold": true
-                                  }
-                                }
-                              },
-                              "7": {
-                                "index": 7,
-                                "ref": "H1",
-                                "style": {
-                                  "textAlign": "center",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "top": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11,
-                                    "bold": true
-                                  }
-                                }
-                              }
-                            },
-                            "index": 0
-                          },
-                          "1": {
-                            "visible": true,
-                            "cells": {
-                              "0": {
-                                "value": "Segment duration (t)\r\ns",
-                                "index": 0,
-                                "ref": "A2",
-                                "style": {
-                                  "background": "#e2f0d9",
-                                  "wrap": true,
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "top": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11,
-                                    "bold": true
-                                  }
-                                }
-                              },
-                              "1": {
-                                "value": "Distance travelled (s)\r\nrev",
-                                "index": 1,
-                                "ref": "B2",
-                                "style": {
-                                  "background": "#e2f0d9",
-                                  "wrap": true,
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "top": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11,
-                                    "bold": true
-                                  }
-                                }
-                              },
-                              "2": {
-                                "value": "Initial Velocity (u)\r\nrev/s",
-                                "index": 2,
-                                "ref": "C2",
-                                "style": {
-                                  "background": "#e2f0d9",
-                                  "wrap": true,
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "top": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11,
-                                    "bold": true
-                                  }
-                                }
-                              },
-                              "3": {
-                                "value": "Final Velocity (v)\r\nrev/s",
-                                "index": 3,
-                                "ref": "D2",
-                                "style": {
-                                  "background": "#e2f0d9",
-                                  "wrap": true,
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "top": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11,
-                                    "bold": true
-                                  }
-                                }
-                              },
-                              "4": {
-                                "value": "Distance travelled (s)\r\nrev",
-                                "index": 4,
-                                "ref": "E2",
-                                "style": {
-                                  "background": "#e2f0d9",
-                                  "wrap": true,
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "top": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11,
-                                    "bold": true
-                                  }
-                                }
-                              },
-                              "5": {
-                                "value": "Acceleration (a)\r\nrad/s<sup>2</sup>",
-                                "index": 5,
-                                "ref": "F2",
-                                "style": {
-                                  "background": "#e2f0d9",
-                                  "wrap": true,
-                                  "textAlign": "center",
-                                  "verticalAlign": "middle",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "top": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11,
-                                    "bold": true
-                                  }
-                                }
-                              },
-                              "6": {
-                                "value": "Load Inertia (J<sub>Load</sub>)\r\nkg-m<sup>2</sup>",
-                                "index": 6,
-                                "ref": "G2",
-                                "style": {
-                                  "background": "#e2f0d9",
-                                  "wrap": true,
-                                  "textAlign": "center",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "top": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11,
-                                    "bold": true
-                                  }
-                                }
-                              },
-                              "7": {
-                                "value": "Total Torque (T<sub>T</sub>)\r\nNm",
-                                "index": 7,
-                                "ref": "H2",
-                                "style": {
-                                  "background": "#e2f0d9",
-                                  "wrap": true,
-                                  "textAlign": "center",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "top": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "right": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11,
-                                    "bold": true
-                                  }
-                                }
-                              }
-                            },
-                            "index": 1,
-                            "height": 46.875
-                          },
-                          "2": {
-                            "visible": true,
-                            "cells": {
-                              "0": {
-                                "value": 0.09,
-                                "index": 0,
-                                "ref": "A3",
-                                "style": {
-                                  "textAlign": "center",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "top": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "1": {
-                                "value": 0.9,
-                                "index": 1,
-                                "ref": "B3",
-                                "style": {
-                                  "textAlign": "center",
-                                  "border": {
-                                    "top": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "2": {
-                                "value": 0,
-                                "index": 2,
-                                "ref": "C3",
-                                "style": {
-                                  "textAlign": "center",
-                                  "border": {
-                                    "top": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "3": {
-                                "value": 20,
-                                "index": 3,
-                                "ref": "D3",
-                                "style": {
-                                  "textAlign": "center",
-                                  "border": {
-                                    "top": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "4": {
-                                "value": 0.9,
-                                "index": 4,
-                                "ref": "E3",
-                                "style": {
-                                  "textAlign": "center",
-                                  "border": {
-                                    "top": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "5": {
-                                "value": 1396.263402,
-                                "index": 5,
-                                "ref": "F3",
-                                "style": {
-                                  "textAlign": "center",
-                                  "border": {
-                                    "top": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "6": {
-                                "value": 0.006,
-                                "index": 6,
-                                "ref": "G3",
-                                "style": {
-                                  "textAlign": "center",
-                                  "border": {
-                                    "top": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "7": {
-                                "value": 10.87758,
-                                "index": 7,
-                                "ref": "H3",
-                                "style": {
-                                  "textAlign": "center",
-                                  "border": {
-                                    "top": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              }
-                            },
-                            "index": 2
-                          },
-                          "3": {
-                            "visible": true,
-                            "cells": {
-                              "0": {
-                                "value": 0.075,
-                                "index": 0,
-                                "ref": "A4",
-                                "style": {
-                                  "textAlign": "center",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "1": {
-                                "value": 1.5,
-                                "index": 1,
-                                "ref": "B4",
-                                "style": {
-                                  "textAlign": "center"
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "2": {
-                                "value": 20,
-                                "index": 2,
-                                "ref": "C4",
-                                "style": {
-                                  "textAlign": "center"
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "3": {
-                                "value": 20,
-                                "index": 3,
-                                "ref": "D4",
-                                "style": {
-                                  "textAlign": "center"
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "4": {
-                                "value": 1.5,
-                                "index": 4,
-                                "ref": "E4",
-                                "style": {
-                                  "textAlign": "center"
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "5": {
-                                "value": 0,
-                                "index": 5,
-                                "ref": "F4",
-                                "style": {
-                                  "textAlign": "center"
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "6": {
-                                "value": 0.006,
-                                "index": 6,
-                                "ref": "G4",
-                                "style": {
-                                  "textAlign": "center"
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "7": {
-                                "value": 2.5,
-                                "index": 7,
-                                "ref": "H4",
-                                "style": {
-                                  "textAlign": "center"
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              }
-                            },
-                            "index": 3
-                          },
-                          "4": {
-                            "visible": true,
-                            "cells": {
-                              "0": {
-                                "value": 0.085,
-                                "index": 0,
-                                "ref": "A5",
-                                "style": {
-                                  "textAlign": "center",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "1": {
-                                "value": 0.85,
-                                "index": 1,
-                                "ref": "B5",
-                                "style": {
-                                  "textAlign": "center"
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "2": {
-                                "value": 20,
-                                "index": 2,
-                                "ref": "C5",
-                                "style": {
-                                  "textAlign": "center"
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "3": {
-                                "value": 0,
-                                "index": 3,
-                                "ref": "D5",
-                                "style": {
-                                  "textAlign": "center"
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "4": {
-                                "value": 0.85,
-                                "index": 4,
-                                "ref": "E5",
-                                "style": {
-                                  "textAlign": "center"
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "5": {
-                                "value": -1478.396543,
-                                "index": 5,
-                                "ref": "F5",
-                                "style": {
-                                  "textAlign": "center"
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "6": {
-                                "value": 0.006,
-                                "index": 6,
-                                "ref": "G5",
-                                "style": {
-                                  "textAlign": "center"
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "7": {
-                                "value": -6.37038,
-                                "index": 7,
-                                "ref": "H5",
-                                "style": {
-                                  "textAlign": "center"
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              }
-                            },
-                            "index": 4
-                          },
-                          "5": {
-                            "visible": true,
-                            "cells": {
-                              "0": {
-                                "value": 0.05,
-                                "index": 0,
-                                "ref": "A6",
-                                "style": {
-                                  "textAlign": "center",
-                                  "border": {
-                                    "left": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    },
-                                    "bottom": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "1": {
-                                "value": 0,
-                                "index": 1,
-                                "ref": "B6",
-                                "style": {
-                                  "textAlign": "center",
-                                  "border": {
-                                    "bottom": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "2": {
-                                "value": 0,
-                                "index": 2,
-                                "ref": "C6",
-                                "style": {
-                                  "textAlign": "center",
-                                  "border": {
-                                    "bottom": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "3": {
-                                "value": 0,
-                                "index": 3,
-                                "ref": "D6",
-                                "style": {
-                                  "textAlign": "center",
-                                  "border": {
-                                    "bottom": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "4": {
-                                "value": 0,
-                                "index": 4,
-                                "ref": "E6",
-                                "style": {
-                                  "textAlign": "center",
-                                  "border": {
-                                    "bottom": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "5": {
-                                "value": 0,
-                                "index": 5,
-                                "ref": "F6",
-                                "style": {
-                                  "textAlign": "center",
-                                  "border": {
-                                    "bottom": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "6": {
-                                "value": 0.006,
-                                "index": 6,
-                                "ref": "G6",
-                                "style": {
-                                  "textAlign": "center",
-                                  "border": {
-                                    "bottom": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              },
-                              "7": {
-                                "value": 0.5,
-                                "index": 7,
-                                "ref": "H6",
-                                "style": {
-                                  "textAlign": "center",
-                                  "border": {
-                                    "bottom": {
-                                      "clr": "#70ad47",
-                                      "type": "thin"
-                                    }
-                                  }
-                                },
-                                "fontAttrs": {
-                                  "def": {
-                                    "family": "Calibri",
-                                    "size": 11
-                                  }
-                                }
-                              }
-                            },
-                            "index": 5
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
+       
         "question1": {
           "dim": {
             "height": "300px",
@@ -12618,7 +12619,7 @@ var leoConfigNew = {
         "question2": {
           "dim": {
             "height": "1000px",
-            "width": "700px"
+            "width": "800px"
           },
           "config": {
             "meta": {

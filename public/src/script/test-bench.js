@@ -29,9 +29,6 @@ function updateContainerUI(){
     var containerHeight = inputHeight !="" ? inputHeight : leoConfigNew.type[usecase].dim.height;
     var containerWidth = inputWidth !="" ? inputWidth : leoConfigNew.type[usecase].dim.width;
 
-    var heightDiff = parseInt(leoConfigNew.type[usecase].dim.height.trim()) - inputHeight;
-    document.getElementById("buttonPanel").style.marginTop = heightDiff + "px";
-
     changeContainerDim(containerHeight, containerWidth);
     paintLeonardoWidget(mode, usecase, uiStyle);
 }
@@ -101,7 +98,6 @@ function changeConfig() {
 
     document.getElementById("alignment").value="default";
     document.getElementById("height").value="default";
-    document.getElementById("buttonPanel").style.marginTop =  "0px";
 }
 function onModeChange(mode) {
     var select = document.getElementById('usecase');
@@ -161,11 +157,13 @@ function toggleConfiguratorPane() {
     configVisible = !configVisible;
     if (configVisible == true) {
         document.querySelector(".configuratorPane").classList.remove("hideConfigPane");
+        document.querySelector(".assesmentContainer").classList.remove("resizeAssesmentPane");
         document.querySelector(".spreadsheetpane").classList.remove("expandSpreadsheetPane");
         document.querySelector(".splitter>button").innerHTML = "&lt;&lt;"; //select all buttons where parent is splitter class
     }
     else {
         document.querySelector(".configuratorPane").classList.add("hideConfigPane");
+        document.querySelector(".assesmentContainer").classList.add("resizeAssesmentPane");
         document.querySelector(".spreadsheetpane").classList.add("expandSpreadsheetPane");
         document.querySelector(".splitter>button").innerHTML = "&lt;&lt;";
     }
