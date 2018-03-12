@@ -48,7 +48,6 @@ html,body{
 }
 
 .configurationSetter{
-	margin-top: 20px;
 	height: calc(100% - 255px);
 	overflow: auto;
 	border-top: solid 1px;

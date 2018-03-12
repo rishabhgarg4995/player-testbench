@@ -1004,7 +1004,7 @@ var leoConfigNew = {
                           "0": {
                             "visible": true,
                             "index": 0,
-                            "width": 133
+                            "width": 135
                           },
                           "1": {
                             "visible": true,
@@ -1491,7 +1491,7 @@ var leoConfigNew = {
                                 }
                               },
                               "5": {
-                                "value": "Acceleration (a)\r\nrad/s<sup>2</sup>",
+                                "value": "Acceleration (a)\r\nrad/s2",
                                 "index": 5,
                                 "ref": "F2",
                                 "style": {
@@ -1523,11 +1523,21 @@ var leoConfigNew = {
                                     "family": "Calibri",
                                     "size": 11,
                                     "bold": true
-                                  }
+                                  },
+                                  "runs": [
+                                    {
+                                      "start": 23,
+                                      "txt": "2",
+                                      "family": "Calibri",
+                                      "size": 11,
+                                      "bold": true,
+                                      "superScript": true
+                                    }
+                                  ]
                                 }
                               },
                               "6": {
-                                "value": "Load Inertia (J<sub>Load</sub>)\r\nkg-m<sup>2</sup>",
+                                "value": "Load Inertia (JLoad)\r\nkg-m2",
                                 "index": 6,
                                 "ref": "G2",
                                 "style": {
@@ -1558,11 +1568,30 @@ var leoConfigNew = {
                                     "family": "Calibri",
                                     "size": 11,
                                     "bold": true
-                                  }
+                                  },
+                                  "runs": [
+                                    {
+                                      "start": 26,
+                                      "txt": "2",
+                                      "family": "Calibri",
+                                      "size": 11,
+                                      "bold": true,
+                                      "superScript": true
+                                    },
+                                    {
+                                      "start": 15,
+                                      "txt": "Load",
+                                      "italic": true,
+                                      "family": "Calibri",
+                                      "size": 11,
+                                      "bold": true,
+                                      "subScript": true
+                                    }
+                                  ]
                                 }
                               },
                               "7": {
-                                "value": "Total Torque (T<sub>T</sub>)\r\nNm",
+                                "value": "Total Torque (TT)\r\nNm",
                                 "index": 7,
                                 "ref": "H2",
                                 "style": {
@@ -1593,7 +1622,18 @@ var leoConfigNew = {
                                     "family": "Calibri",
                                     "size": 11,
                                     "bold": true
-                                  }
+                                  },
+                                  "runs": [
+                                    {
+                                      "start": 15,
+                                      "txt": "T",
+                                      "italic": true,
+                                      "family": "Calibri",
+                                      "size": 11,
+                                      "bold": true,
+                                      "subScript": true
+                                    }
+                                  ]
                                 }
                               }
                             },
