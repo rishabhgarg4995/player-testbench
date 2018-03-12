@@ -68,7 +68,7 @@ function paintLeonardoWidget(mode, usecaseValue, uiOverride) {
             };
     }
 
-    document.getElementById("widgetStyles").innerHTML = JSON.stringify(uiStyle.widgetStyles,null,2);
+    document.getElementById("widgetStyles").value = JSON.stringify(uiStyle.widgetStyles,null,2);
 
     if (!leoConfigNew.type[usecaseValue].config.meta) {
         leoConfigNew.type[usecaseValue].config.meta = {};
