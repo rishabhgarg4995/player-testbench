@@ -80,6 +80,10 @@ html,body{
 	position: absolute;
 	right: 0px;
 }
+
+.assesmentContainer.hideButtons .spreadsheetpane {
+	height: 100%;
+}
 .assesmentContainer.resizeAssesmentPane {
 	width: calc(100% - 20px);;
 }
@@ -156,7 +160,7 @@ html,body{
 	padding-right: 15px;
 	padding-left: 10px;
 	width: 30%;
-    	display: inline-block; 
+    display: inline-block; 
 }
 
 .row {
@@ -188,3 +192,10 @@ html,body{
 	margin-left: 70px
 }
 
+.label{
+	font-weight: bold;
+	font-size: 14px;
+	position: relative;
+	padding: 5px 0px 5px 70px;
+    display: block; 
+}

@@ -22,12 +22,10 @@
             </div>
             <div class="row">
               <span class="spanClass"> Use Case </span>
-              <select id="usecase">
+              <select id="usecase" onchange="changeConfig()">
               </select>
             </div>
-            <div class="btnContainer">
-                <button class="submitButton" onclick="changeConfig()"> Apply </button>  
-            </div>
+            
           </div>
         </div>
 
@@ -65,6 +63,7 @@
               </select>
             </div>
             <div class="row">
+              <label class="label">Styles for Widget Container</label>
               <textarea class="textArea" rows=5 cols=40 id="widgetStyles"></textarea>
             </div>
 

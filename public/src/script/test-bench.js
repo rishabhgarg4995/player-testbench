@@ -76,9 +76,11 @@ function paintLeonardoWidget(mode, usecaseValue, uiOverride) {
 
     if (mode == "Question") {
         document.querySelector(".buttonPanel").classList.remove("hideBtns");
+        document.querySelector(".assesmentContainer").classList.remove("hideButtons");
     }
     else {
         document.querySelector(".buttonPanel").classList.add("hideBtns");
+        document.querySelector(".assesmentContainer").classList.add("hideButtons");
     }
     uiStyle.widgetStyles  = JSON.stringify(uiStyle.widgetStyles);
 
@@ -92,6 +94,7 @@ function changeConfig() {
     var usecase = getValue('usecase');
 
     this.leonardoWidget.destroy();
+    
     let uiStyle = (mode == "Presentation") ? { widgetStyles: '{"box-shadow": "6px 6px 9px #ddd", "border": "1px solid #ddd"}', horizontalAlignment: "center" } : {};
     changeContainerDim(leoConfigNew.type[usecase].dim.height, leoConfigNew.type[usecase].dim.width)
     paintLeonardoWidget(mode, usecase);
@@ -100,6 +103,10 @@ function changeConfig() {
     document.getElementById("height").value="default";
 }
 function onModeChange(mode) {
+
+    if(this.leonardoWidget){
+        this.leonardoWidget.destroy();
+    }
     var select = document.getElementById('usecase');
 
     var useCaseArr = [];
@@ -120,6 +127,14 @@ function onModeChange(mode) {
         leoConfigNew["type"][type].config.meta.type == (mode.toLowerCase()) ? useCaseArr.push(type) : null;
     }
     populateDropdown(select, useCaseArr);
+
+    var useCase = "presentation1";
+    if(mode == "Question"){
+        useCase="question1";
+    }
+    changeContainerDim(leoConfigNew.type[useCase].dim.height, leoConfigNew.type[useCase].dim.width);
+    paintLeonardoWidget(mode, useCase);
+    
 }
 //starting function initialized once (on load of body)
 function populateDropdown(dropDownElement, dropdownValueArr) {
@@ -129,6 +144,7 @@ function populateDropdown(dropDownElement, dropdownValueArr) {
         opt.innerHTML = dropdownValueArr[i];
         dropDownElement.appendChild(opt);
     }
+    
 }
 
 function init() {
@@ -149,8 +165,8 @@ function init() {
     document.querySelector(".buttonPanel").classList.add("hideBtns");
 
     onModeChange(mode);
-    changeContainerDim(leoConfigNew.type[useCase].dim.height, leoConfigNew.type[useCase].dim.width);
-    paintLeonardoWidget(mode, useCase);
+    // changeContainerDim(leoConfigNew.type[useCase].dim.height, leoConfigNew.type[useCase].dim.width);
+    // paintLeonardoWidget(mode, useCase);
 }
 
 function toggleConfiguratorPane() {
